@@ -1,2 +1,2 @@
 
-            print("nice")
+    for item in date_played:
