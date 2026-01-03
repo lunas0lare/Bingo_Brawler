@@ -1,0 +1,2001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="darkreader" content="Bingo Brawlers">
+	<title>Bingo Brawlers</title>
+	<link rel="canonical" href="https://bingobrawlers.com/">
+	<link rel="image_src" href="https://bingobrawlers.com/assets/img/og/og-header.jpg">
+	<meta name="description" content="Bingo Brawlers is the heart of the bingo scene for video games as whole, putting top players in a league of their own, competing for the title &quot;Bingo Champion&quot;.">
+	<meta property="og:url" content="https://bingobrawlers.com/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Bingo Brawlers">
+	<meta property="og:description" content="Bingo Brawlers is the heart of the bingo scene for video games as whole, putting top players in a league of their own, competing for the title &quot;Bingo Champion&quot;.">
+	<meta property="og:image" content="https://bingobrawlers.com/assets/img/og/og-header.jpg">
+	
+		<link rel="stylesheet" href="/assets/legacy.css">
+	
+	<link rel="stylesheet" href="/assets/mobile.css" media="(max-width: 760px)">
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+	<link rel="preconnect" href="https://static-cdn.jtvnw.net/">
+	<link rel="dns-prefetch" href="https://www.youtube-nocookie.com/">
+	<script src="/script.js" defer></script>
+</head>
+
+<body>
+	<div class="dark-reader-notification" aria-hidden="true">
+		Please disable <strong>Dark Reader</strong> or enable the "<strong>Detect Dark Theme</strong>" option in its settings.<br>
+		As this website is designed with a dark theme in mind, it will not look as intended with Dark Reader enabled.
+	</div>
+	
+
+
+
+<header class="main-nav" id="navigationheader">
+	<div class="content-container flex-row">
+		<div class="logo">
+			<a href="/" draggable="false" title="Home">
+				<img src="/assets/img/logo-plain.webp" alt="Bingo Brawlers Logo" draggable="false">
+				<img class="hover" src="/assets/img/logo-colour.webp" alt="" draggable="false" aria-hidden="true">
+			</a>
+		</div>
+		<div class="spacer"></div>
+		<nav class="main">
+			
+	<ul>
+		
+			<li>
+				<a href="/" draggable="false"  class="active" >
+					
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="16" height="16">
+				<path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+			</svg>
+		</div>
+	
+
+					
+				</a>
+				
+			</li>
+		
+			<li>
+				<a href="/info" draggable="false" >
+					
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="16" height="16">
+				<path d="M3,4H7V8H3V4M9,5V7H21V5H9M3,10H7V14H3V10M9,11V13H21V11H9M3,16H7V20H3V16M9,17V19H21V17H9" />
+			</svg>
+		</div>
+	
+
+					<span>Rules</span>
+				</a>
+				
+					
+	<ul>
+		
+			<li>
+				<a href="/info" draggable="false" >
+					
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="16" height="16">
+				<path d="M3,4H7V8H3V4M9,5V7H21V5H9M3,10H7V14H3V10M9,11V13H21V11H9M3,16H7V20H3V16M9,17V19H21V17H9" />
+			</svg>
+		</div>
+	
+
+					<span>Rules</span>
+				</a>
+				
+			</li>
+		
+			<li>
+				<a href="/downloads" draggable="false" >
+					
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="16" height="16">
+				<path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" />
+			</svg>
+		</div>
+	
+
+					<span>Downloads</span>
+				</a>
+				
+			</li>
+		
+	</ul>
+
+				
+			</li>
+		
+			<li>
+				<a href="/season/4" draggable="false" >
+					
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="16" height="16">
+				<path d="M2,2V4H7V8H2V10H7C8.11,10 9,9.11 9,8V7H14V17H9V16C9,14.89 8.11,14 7,14H2V16H7V20H2V22H7C8.11,22 9,21.11 9,20V19H14C15.11,19 16,18.11 16,17V13H22V11H16V7C16,5.89 15.11,5 14,5H9V4C9,2.89 8.11,2 7,2H2Z" />
+			</svg>
+		</div>
+	
+
+					<span>Season 3</span>
+				</a>
+				
+					
+	<ul>
+		
+			<li>
+				<a href="/season/4" draggable="false" >
+					
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="16" height="16">
+				<path d="M2,2V4H7V8H2V10H7C8.11,10 9,9.11 9,8V7H14V17H9V16C9,14.89 8.11,14 7,14H2V16H7V20H2V22H7C8.11,22 9,21.11 9,20V19H14C15.11,19 16,18.11 16,17V13H22V11H16V7C16,5.89 15.11,5 14,5H9V4C9,2.89 8.11,2 7,2H2Z" />
+			</svg>
+		</div>
+	
+
+					<span>Season 4</span>
+				</a>
+				
+			</li>
+		
+			<li>
+				<a href="/season/3" draggable="false" >
+					
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="16" height="16">
+				<path d="M2,2V4H7V8H2V10H7C8.11,10 9,9.11 9,8V7H14V17H9V16C9,14.89 8.11,14 7,14H2V16H7V20H2V22H7C8.11,22 9,21.11 9,20V19H14C15.11,19 16,18.11 16,17V13H22V11H16V7C16,5.89 15.11,5 14,5H9V4C9,2.89 8.11,2 7,2H2Z" />
+			</svg>
+		</div>
+	
+
+					<span>Season 3</span>
+				</a>
+				
+			</li>
+		
+			<li>
+				<a href="/season/2" draggable="false" >
+					
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="16" height="16">
+				<path d="M2,2V4H7V8H2V10H7C8.11,10 9,9.11 9,8V7H14V17H9V16C9,14.89 8.11,14 7,14H2V16H7V20H2V22H7C8.11,22 9,21.11 9,20V19H14C15.11,19 16,18.11 16,17V13H22V11H16V7C16,5.89 15.11,5 14,5H9V4C9,2.89 8.11,2 7,2H2Z" />
+			</svg>
+		</div>
+	
+
+					<span>Season 2</span>
+				</a>
+				
+			</li>
+		
+			<li>
+				<a href="/season/1" draggable="false" >
+					
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="16" height="16">
+				<path d="M2,2V4H7V8H2V10H7C8.11,10 9,9.11 9,8V7H14V17H9V16C9,14.89 8.11,14 7,14H2V16H7V20H2V22H7C8.11,22 9,21.11 9,20V19H14C15.11,19 16,18.11 16,17V13H22V11H16V7C16,5.89 15.11,5 14,5H9V4C9,2.89 8.11,2 7,2H2Z" />
+			</svg>
+		</div>
+	
+
+					<span>Season 1</span>
+				</a>
+				
+			</li>
+		
+	</ul>
+
+				
+			</li>
+		
+	</ul>
+
+			<div class="user">
+				<a href="//prediction.bingobrawlers.com/login" rel="noreferrer" draggable="false">
+	
+	
+		<div class="icon">
+			
+			<svg viewBox="0 0 24 24" width="24" height="24">
+				<path d="M11 7L9.6 8.4L12.2 11H2V13H12.2L9.6 15.6L11 17L16 12L11 7M20 19H12V21H20C21.1 21 22 20.1 22 19V5C22 3.9 21.1 3 20 3H12V5H20V19Z" />
+			</svg>
+		</div>
+	
+ Login</a>
+			</div>
+		</nav>
+	</div>
+</header>
+
+	<section class="hero">
+		<div class="content-container">
+			<div class="hero-img animate">
+				<h1><img srcset="/assets/img/logo-season3.avif, /assets/img/logo-season3.webp" src="/assets/img/logo-season3.webp" alt="Bingo Brawlers - Season 3" draggable="false" loading="eager"></h1>
+			</div>
+			
+		</div>
+	</section>
+	<section id="players" class="people">
+		<div class="content-container">
+			<h2 class="organiser">Organizer / Host</h2>
+			<div class="players">
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/95dabdc9-3f87-4995-af97-1933fe92f4c2-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="https://twitch.tv/captain_domo" target="_blank" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/95dabdc9-3f87-4995-af97-1933fe92f4c2-profile_image-150x150.png" alt="Captain_Domo" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div>
+			<div class="name">
+				<p>Captain_Domo</p>
+			</div>
+		</div>
+
+			</div>
+			<h2 class="main-heading">Teams</h2>
+			<div class="players runners">
+				
+					
+	<div class="team">
+		<div class="team-players">
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-catalystz" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-150x150.png" alt="catalystz" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-puppery" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-150x150.png" alt="Puppery" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			</div>
+		<div class="name">
+			<p>
+				Cattery
+			</p>
+		</div>
+	</div>
+
+				
+					
+	<div class="team">
+		<div class="team-players">
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac686200-e53b-4f2d-a645-863054ac9d57-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-star0chris" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac686200-e53b-4f2d-a645-863054ac9d57-profile_image-150x150.png" alt="star0chris" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea1e0eb0-7745-4076-8659-0911e6b6a655-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-adef" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea1e0eb0-7745-4076-8659-0911e6b6a655-profile_image-150x150.png" alt="adef" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			</div>
+		<div class="name">
+			<p>
+				Positive Vibes
+			</p>
+		</div>
+	</div>
+
+				
+					
+	<div class="team">
+		<div class="team-players">
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-zoodle" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-150x150.png" alt="Zoodle" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/1d5472f3-60ae-4a21-9ea4-f7454e1e02ac-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-nuclearpastatom" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/1d5472f3-60ae-4a21-9ea4-f7454e1e02ac-profile_image-150x150.png" alt="NuclearPastaTom" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			</div>
+		<div class="name">
+			<p>
+				ZOOM
+			</p>
+		</div>
+	</div>
+
+				
+					
+	<div class="team">
+		<div class="team-players">
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-bushy" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-150x150.png" alt="bushy" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ce240fc3-e655-4db9-82d6-51dea1e98104-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-yojosherino" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ce240fc3-e655-4db9-82d6-51dea1e98104-profile_image-150x150.png" alt="YoJosherino" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			</div>
+		<div class="name">
+			<p>
+				Jo W Bush
+			</p>
+		</div>
+	</div>
+
+				
+					
+	<div class="team">
+		<div class="team-players">
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/73a82237-8371-4991-a566-37e214a4339d-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-blueberrybrioche" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/73a82237-8371-4991-a566-37e214a4339d-profile_image-150x150.png" alt="blueberrybrioche" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/f88690c8-748e-4e79-ab8e-ce7b20f3cc77-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-ginomachino" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/f88690c8-748e-4e79-ab8e-ce7b20f3cc77-profile_image-150x150.png" alt="GinoMachino" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			</div>
+		<div class="name">
+			<p>
+				BrinoMachino
+			</p>
+		</div>
+	</div>
+
+				
+					
+	<div class="team">
+		<div class="team-players">
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-lilaggy" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-150x150.png" alt="LilAggy" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			
+				
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="/players/#player-itzcbd" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-150x150.png" alt="itzCBD" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div></div>
+
+			</div>
+		<div class="name">
+			<p>
+				Monkey Ballers
+			</p>
+		</div>
+	</div>
+
+				
+			</div>
+			<h2>Commentators</h2>
+			<div class="players commentators">
+				
+					
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/95dabdc9-3f87-4995-af97-1933fe92f4c2-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="https://twitch.tv/captain_domo" target="_blank" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/95dabdc9-3f87-4995-af97-1933fe92f4c2-profile_image-150x150.png" alt="Captain_Domo" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div>
+			<div class="name">
+				<p>Captain_Domo</p>
+			</div>
+		</div>
+	
+				
+					
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/a4481daa-527d-4c67-9e60-28e2e8072160-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="https://twitch.tv/parkenharbor" target="_blank" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/a4481daa-527d-4c67-9e60-28e2e8072160-profile_image-150x150.png" alt="parkenharbor" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div>
+			<div class="name">
+				<p>parkenharbor</p>
+			</div>
+		</div>
+	
+				
+					
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/42be6c4b-a26c-49cd-bf80-1d885c084f64-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="https://twitch.tv/limcube" target="_blank" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/42be6c4b-a26c-49cd-bf80-1d885c084f64-profile_image-150x150.png" alt="Limcube" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div>
+			<div class="name">
+				<p>Limcube</p>
+			</div>
+		</div>
+	
+				
+					
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/926ab059-3505-482f-8ff5-da5cc89b1ed5-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="https://twitch.tv/drdootphd" target="_blank" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/926ab059-3505-482f-8ff5-da5cc89b1ed5-profile_image-150x150.png" alt="DrDootPhD" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div>
+			<div class="name">
+				<p>DrDootPhD</p>
+			</div>
+		</div>
+	
+				
+					
+	<div class="player">
+		<div class="img-container">
+			<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/24f1f6c3-ebc7-448d-854a-f24d5a751de4-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+			
+				<a href="https://twitch.tv/blanxz" target="_blank" draggable="false">
+			
+				<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/24f1f6c3-ebc7-448d-854a-f24d5a751de4-profile_image-150x150.png" alt="blanxz" draggable="false" width="100" height="100" loading="eager">
+			</a>
+		</div>
+			<div class="name">
+				<p>blanxz</p>
+			</div>
+		</div>
+	
+				
+			</div>
+		</div>
+	</section>
+	<main>
+		<div class="content-container">
+
+
+			<div class="final-results">
+				<h2>Final results</h2>
+				<table>
+					<tr>
+						<td>1</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-70x70.png" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div class="img">
+									<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-70x70.png" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>Cattery</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/73a82237-8371-4991-a566-37e214a4339d-profile_image-70x70.png" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div class="img">
+									<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f88690c8-748e-4e79-ab8e-ce7b20f3cc77-profile_image-70x70.png" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>BrinoMachino</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-70x70.png" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div class="img">
+									<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-70x70.png" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>Monkey Ballers</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+
+			<h2>Top 3 Lockout Bracket Playoffs</h2>
+			<div class="bracket-container">
+				<div class="bracket">
+					<div class="label label1">Semi-Finals</div>
+					<div class="label label2">Finals</div>
+					
+					<div class="match semi">
+						<div class="header">
+							<time class="datetime" datetime="2024-04-27T17:00:00.000Z">27/04/2023</time>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player loser">
+								<div class="name">Monkey Ballers</div>
+								<div class="points">0</div>
+							</div>
+							<div class="bracket-player winner">
+								<div class="name">Cattery</div>
+								<div class="points">2</div>
+							</div>
+						</div>
+					</div>
+					<div class="match match3 current-round">
+						<div class="header">
+							<time class="datetime" datetime="2024-04-28T17:00:00.000Z">28/04/2023</time>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player">
+								<div class="name">BrinoMachino</div>
+								<div class="points">0</div>
+							</div>
+							<div class="bracket-player winner">
+								<div class="name">Cattery</div>
+								<div class="points">2</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="line-semi">
+						<div class="line-box single">
+							<div class="line"></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+
+
+
+			<section class="box leaderboard t3">
+				<header>
+					<h2>Leaderboard</h2>
+				</header>
+				<div class="table">
+					<table class="default lb-table">
+						<thead>
+							<tr>
+								<th>
+			<svg viewBox="0 0 24 24" width="24" height="24">
+				<path d="M18 2C17.1 2 16 3 16 4H8C8 3 6.9 2 6 2H2V11C2 12 3 13 4 13H6.2C6.6 15 7.9 16.7 11 17V19.08C8 19.54 8 22 8 22H16C16 22 16 19.54 13 19.08V17C16.1 16.7 17.4 15 17.8 13H20C21 13 22 12 22 11V2H18M6 11H4V4H6V11M20 11H18V4H20V11Z" />
+			</svg></th>
+								<th>Team</th>
+								<th title="Wins">W</th>
+								<th title="Defeats">D</th>
+								<th title="Points">P</th>
+								<th title="Squares">S</th>
+								<th title="Lines">L</th>
+								<th title="Games played">G</th>
+							</tr>
+						</thead>
+						<tbody>
+					
+							<tr>
+								<td>1</td>
+								<td>BrinoMachino</td>
+								<td>0</td>
+								<td>5</td>
+								<td>65</td>
+								<td>61</td>
+								<td>2</td>
+								<td>5</td>
+							</tr>
+					
+							<tr>
+								<td>2</td>
+								<td>Monkey Ballers</td>
+								<td>0</td>
+								<td>5</td>
+								<td>64</td>
+								<td>58</td>
+								<td>3</td>
+								<td>5</td>
+							</tr>
+					
+							<tr>
+								<td>3</td>
+								<td>Cattery</td>
+								<td>0</td>
+								<td>5</td>
+								<td>60</td>
+								<td>58</td>
+								<td>1</td>
+								<td>5</td>
+							</tr>
+					
+							<tr>
+								<td>4</td>
+								<td>ZOOM</td>
+								<td>0</td>
+								<td>5</td>
+								<td>49</td>
+								<td>47</td>
+								<td>1</td>
+								<td>5</td>
+							</tr>
+					
+							<tr>
+								<td>5</td>
+								<td>Positive Vibes</td>
+								<td>0</td>
+								<td>5</td>
+								<td>46</td>
+								<td>44</td>
+								<td>1</td>
+								<td>5</td>
+							</tr>
+					
+							<tr>
+								<td>6</td>
+								<td>Jo W Bush</td>
+								<td>0</td>
+								<td>5</td>
+								<td>41</td>
+								<td>41</td>
+								<td>0</td>
+								<td>5</td>
+							</tr>
+					
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="100%">W - Wins | D - Defeats | P - Points | S - Squares | L - Lines | G - Games</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</section>
+			
+	<section class="schedule">
+		<h2>Schedule</h2>
+		<div class="rounds">
+				
+					<article class="box transparent round">
+						<header>
+							<div class="round-header">
+								<h3>Round 1</h3>
+								<p>
+									<time class="date" datetime="2024-04-06T17:00:00.000Z" data-time="1712422800000">
+										Sat Apr 06 2024
+									</time>
+								</p>
+							</div>
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+									
+									<div class="commentator">
+										<div class="avatar">
+											<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/24f1f6c3-ebc7-448d-854a-f24d5a751de4-profile_image-150x150.png" alt="" aria-hidden="true">
+										</div>
+										<div class="commentator-name">
+											<div class="wrap">
+												<p><small>Co-Commentating:</small></p>
+												<p>blanxz</p>
+											</div>
+										</div>
+									</div>
+								
+							
+						</header>
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/1-jo-w-bush-vs-monkey-ballers" draggable="false">
+		<div class="match-team-schedule  winner blue ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-06T17:00:00.000Z" data-time="1712422800000">
+								07:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-50x50.png" alt="bushy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ce240fc3-e655-4db9-82d6-51dea1e98104-profile_image-50x50.png" alt="YoJosherino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Jo W Bush</div>
+	</div>
+
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-50x50.png" alt="LilAggy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-50x50.png" alt="itzCBD" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Monkey Ballers</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/2-zoom-vs-positive-vibes" draggable="false">
+		<div class="match-team-schedule  winner red ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-06T18:30:00.000Z" data-time="1712428200000">
+								08:30 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-50x50.png" alt="Zoodle" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1d5472f3-60ae-4a21-9ea4-f7454e1e02ac-profile_image-50x50.png" alt="NuclearPastaTom" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">ZOOM</div>
+	</div>
+
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac686200-e53b-4f2d-a645-863054ac9d57-profile_image-50x50.png" alt="star0chris" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea1e0eb0-7745-4076-8659-0911e6b6a655-profile_image-50x50.png" alt="adef" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Positive Vibes</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/3-cattery-vs-brinomachino" draggable="false">
+		<div class="match-team-schedule  winner blue ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-06T20:00:00.000Z" data-time="1712433600000">
+								10:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-50x50.png" alt="catalystz" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-50x50.png" alt="Puppery" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Cattery</div>
+	</div>
+
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/73a82237-8371-4991-a566-37e214a4339d-profile_image-50x50.png" alt="blueberrybrioche" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f88690c8-748e-4e79-ab8e-ce7b20f3cc77-profile_image-50x50.png" alt="GinoMachino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">BrinoMachino</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+					</article>
+				
+				
+					<article class="box transparent round">
+						<header>
+							<div class="round-header">
+								<h3>Round 2</h3>
+								<p>
+									<time class="date" datetime="2024-04-07T17:00:00.000Z" data-time="1712509200000">
+										Sun Apr 07 2024
+									</time>
+								</p>
+							</div>
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+									
+									<div class="commentator">
+										<div class="avatar">
+											<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/24f1f6c3-ebc7-448d-854a-f24d5a751de4-profile_image-150x150.png" alt="" aria-hidden="true">
+										</div>
+										<div class="commentator-name">
+											<div class="wrap">
+												<p><small>Co-Commentating:</small></p>
+												<p>blanxz</p>
+											</div>
+										</div>
+									</div>
+								
+							
+						</header>
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/4-positive-vibes-vs-cattery" draggable="false">
+		<div class="match-team-schedule  winner blue ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-07T17:00:00.000Z" data-time="1712509200000">
+								07:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac686200-e53b-4f2d-a645-863054ac9d57-profile_image-50x50.png" alt="star0chris" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea1e0eb0-7745-4076-8659-0911e6b6a655-profile_image-50x50.png" alt="adef" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Positive Vibes</div>
+	</div>
+
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-50x50.png" alt="catalystz" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-50x50.png" alt="Puppery" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Cattery</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/6-monkey-ballers-vs-zoom" draggable="false">
+		<div class="match-team-schedule  winner red ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-07T18:30:00.000Z" data-time="1712514600000">
+								08:30 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-50x50.png" alt="LilAggy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-50x50.png" alt="itzCBD" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Monkey Ballers</div>
+	</div>
+
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-50x50.png" alt="Zoodle" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1d5472f3-60ae-4a21-9ea4-f7454e1e02ac-profile_image-50x50.png" alt="NuclearPastaTom" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">ZOOM</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/5-brinomachino-vs-jo-w-bush" draggable="false">
+		<div class="match-team-schedule  winner red ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-07T20:00:00.000Z" data-time="1712520000000">
+								10:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/73a82237-8371-4991-a566-37e214a4339d-profile_image-50x50.png" alt="blueberrybrioche" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f88690c8-748e-4e79-ab8e-ce7b20f3cc77-profile_image-50x50.png" alt="GinoMachino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">BrinoMachino</div>
+	</div>
+
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-50x50.png" alt="bushy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ce240fc3-e655-4db9-82d6-51dea1e98104-profile_image-50x50.png" alt="YoJosherino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Jo W Bush</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+					</article>
+				
+				
+					<article class="box transparent round">
+						<header>
+							<div class="round-header">
+								<h3>Round 3</h3>
+								<p>
+									<time class="date" datetime="2024-04-13T17:00:00.000Z" data-time="1713027600000">
+										Sat Apr 13 2024
+									</time>
+								</p>
+							</div>
+							
+								
+							
+								
+							
+								
+									
+									<div class="commentator">
+										<div class="avatar">
+											<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/42be6c4b-a26c-49cd-bf80-1d885c084f64-profile_image-150x150.png" alt="" aria-hidden="true">
+										</div>
+										<div class="commentator-name">
+											<div class="wrap">
+												<p><small>Co-Commentating:</small></p>
+												<p>Limcube</p>
+											</div>
+										</div>
+									</div>
+								
+							
+								
+							
+								
+							
+						</header>
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/9-jo-w-bush-vs-zoom" draggable="false">
+		<div class="match-team-schedule  winner blue ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-13T17:00:00.000Z" data-time="1713027600000">
+								07:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-50x50.png" alt="bushy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ce240fc3-e655-4db9-82d6-51dea1e98104-profile_image-50x50.png" alt="YoJosherino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Jo W Bush</div>
+	</div>
+
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-50x50.png" alt="Zoodle" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1d5472f3-60ae-4a21-9ea4-f7454e1e02ac-profile_image-50x50.png" alt="NuclearPastaTom" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">ZOOM</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/8-cattery-vs-monkey-ballers" draggable="false">
+		<div class="match-team-schedule  winner blue ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-13T18:30:00.000Z" data-time="1713033000000">
+								08:30 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-50x50.png" alt="catalystz" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-50x50.png" alt="Puppery" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Cattery</div>
+	</div>
+
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-50x50.png" alt="LilAggy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-50x50.png" alt="itzCBD" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Monkey Ballers</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/7-brinomachino-vs-positive-vibes" draggable="false">
+		<div class="match-team-schedule  winner red ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-13T20:00:00.000Z" data-time="1713038400000">
+								10:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/73a82237-8371-4991-a566-37e214a4339d-profile_image-50x50.png" alt="blueberrybrioche" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f88690c8-748e-4e79-ab8e-ce7b20f3cc77-profile_image-50x50.png" alt="GinoMachino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">BrinoMachino</div>
+	</div>
+
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac686200-e53b-4f2d-a645-863054ac9d57-profile_image-50x50.png" alt="star0chris" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea1e0eb0-7745-4076-8659-0911e6b6a655-profile_image-50x50.png" alt="adef" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Positive Vibes</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+					</article>
+				
+				
+					<article class="box transparent round">
+						<header>
+							<div class="round-header">
+								<h3>Round 4</h3>
+								<p>
+									<time class="date" datetime="2024-04-14T17:00:00.000Z" data-time="1713114000000">
+										Sun Apr 14 2024
+									</time>
+								</p>
+							</div>
+							
+								
+							
+								
+							
+								
+									
+									<div class="commentator">
+										<div class="avatar">
+											<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/42be6c4b-a26c-49cd-bf80-1d885c084f64-profile_image-150x150.png" alt="" aria-hidden="true">
+										</div>
+										<div class="commentator-name">
+											<div class="wrap">
+												<p><small>Co-Commentating:</small></p>
+												<p>Limcube</p>
+											</div>
+										</div>
+									</div>
+								
+							
+								
+							
+								
+							
+						</header>
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/10-zoom-vs-cattery" draggable="false">
+		<div class="match-team-schedule  winner blue ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-14T17:00:00.000Z" data-time="1713114000000">
+								07:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-50x50.png" alt="Zoodle" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1d5472f3-60ae-4a21-9ea4-f7454e1e02ac-profile_image-50x50.png" alt="NuclearPastaTom" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">ZOOM</div>
+	</div>
+
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-50x50.png" alt="catalystz" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-50x50.png" alt="Puppery" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Cattery</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/12-positive-vibes-vs-jo-w-bush" draggable="false">
+		<div class="match-team-schedule  winner red ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-14T18:30:00.000Z" data-time="1713119400000">
+								08:30 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac686200-e53b-4f2d-a645-863054ac9d57-profile_image-50x50.png" alt="star0chris" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea1e0eb0-7745-4076-8659-0911e6b6a655-profile_image-50x50.png" alt="adef" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Positive Vibes</div>
+	</div>
+
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-50x50.png" alt="bushy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ce240fc3-e655-4db9-82d6-51dea1e98104-profile_image-50x50.png" alt="YoJosherino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Jo W Bush</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/11-monkey-ballers-vs-brinomachino" draggable="false">
+		<div class="match-team-schedule  winner blue ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-14T20:00:00.000Z" data-time="1713124800000">
+								10:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-50x50.png" alt="LilAggy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-50x50.png" alt="itzCBD" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Monkey Ballers</div>
+	</div>
+
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/73a82237-8371-4991-a566-37e214a4339d-profile_image-50x50.png" alt="blueberrybrioche" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f88690c8-748e-4e79-ab8e-ce7b20f3cc77-profile_image-50x50.png" alt="GinoMachino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">BrinoMachino</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+					</article>
+				
+				
+					<article class="box transparent round">
+						<header>
+							<div class="round-header">
+								<h3>Round 5</h3>
+								<p>
+									<time class="date" datetime="2024-04-20T17:00:00.000Z" data-time="1713632400000">
+										Sat Apr 20 2024
+									</time>
+								</p>
+							</div>
+							
+								
+							
+								
+							
+								
+							
+								
+									
+									<div class="commentator">
+										<div class="avatar">
+											<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/926ab059-3505-482f-8ff5-da5cc89b1ed5-profile_image-150x150.png" alt="" aria-hidden="true">
+										</div>
+										<div class="commentator-name">
+											<div class="wrap">
+												<p><small>Co-Commentating:</small></p>
+												<p>DrDootPhD</p>
+											</div>
+										</div>
+									</div>
+								
+							
+								
+							
+						</header>
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/13-brinomachino-vs-zoom" draggable="false">
+		<div class="match-team-schedule  winner red ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-20T17:00:00.000Z" data-time="1713632400000">
+								07:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/73a82237-8371-4991-a566-37e214a4339d-profile_image-50x50.png" alt="blueberrybrioche" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f88690c8-748e-4e79-ab8e-ce7b20f3cc77-profile_image-50x50.png" alt="GinoMachino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">BrinoMachino</div>
+	</div>
+
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-50x50.png" alt="Zoodle" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1d5472f3-60ae-4a21-9ea4-f7454e1e02ac-profile_image-50x50.png" alt="NuclearPastaTom" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">ZOOM</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/14-jo-w-bush-vs-cattery" draggable="false">
+		<div class="match-team-schedule  winner blue ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-20T18:30:00.000Z" data-time="1713637800000">
+								08:30 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-50x50.png" alt="bushy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ce240fc3-e655-4db9-82d6-51dea1e98104-profile_image-50x50.png" alt="YoJosherino" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Jo W Bush</div>
+	</div>
+
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-50x50.png" alt="catalystz" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-50x50.png" alt="Puppery" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Cattery</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+				
+						
+	<div class="match-card">
+		<a href="/season/3/match/15-monkey-ballers-vs-positive-vibes" draggable="false">
+		<div class="match-team-schedule  winner red ">
+			
+				<div class="grid">
+					<div class="match-time">
+						<div class="wrap">
+							<time class="time" datetime="2024-04-20T20:00:00.000Z" data-time="1713643200000">
+								10:00 PM
+							</time>
+						</div>
+					</div>
+				</div>
+			
+			
+	<div class="match-team-container">
+		
+	<div class="team winner ">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-50x50.png" alt="LilAggy" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-50x50.png" alt="itzCBD" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Monkey Ballers</div>
+	</div>
+
+		
+	<div class="team  loser">
+		<div class="team-player-avatars">
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac686200-e53b-4f2d-a645-863054ac9d57-profile_image-50x50.png" alt="star0chris" draggable="false" width="50" height="50">
+					
+				</div>
+			
+				<div class="player-avatar">
+					
+						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea1e0eb0-7745-4076-8659-0911e6b6a655-profile_image-50x50.png" alt="adef" draggable="false" width="50" height="50">
+					
+				</div>
+			
+		</div>
+		<div class="name">Positive Vibes</div>
+	</div>
+
+	</div>
+
+		</div>
+		</a>
+	</div>
+
+				
+					</article>
+				</div>
+	</section>
+
+		</div>
+	</main>
+
+	
+	
+	
+	
+
+	
+	
+	<div class="disclaimer">
+	<p>You are temporarily viewing an incomplete version of the Bingo Brawlers website.</p>
+	<p>More comprehensive and complete features coming soon™.</p>	
+</div>
+<footer class="main">
+	<div class="content-container">
+		<ul class="socials">
+			<li>
+				<div class="icon twitch">
+					<a href="https://www.twitch.tv/captain_domo" target="_blank">
+						<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitch</title><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/></svg>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="icon youtube">
+					<a href="https://www.youtube.com/@BingoBrawlers" target="_blank">
+						<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="icon twitter">
+					<a href="https://twitter.com/captain_domo" target="_blank">
+						<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z"/></svg>
+					</a>
+				</div>
+			</li>
+		</ul>
+		<div class="text center">
+			<p class="credit"><a href="https://www.twitch.tv/captain_domo" target="_blank" rel="noopener noreferrer">Bingo Brawlers League organized by Captain_Domo</a></p>
+			<p class="credit"><a href="http://noxi.cc/" target="_blank" rel="noopener noreferrer">Website created by noxifoxi</a></p>
+			<p class="info">
+				Best viewed in
+				<span class="firefox">
+					<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Firefox</title><path d="M20.452 3.445a11.002 11.002 0 00-2.482-1.908C16.944.997 15.098.093 12.477.032c-.734-.017-1.457.03-2.174.144-.72.114-1.398.292-2.118.56-1.017.377-1.996.975-2.574 1.554.583-.349 1.476-.733 2.55-.992a10.083 10.083 0 013.729-.167c2.341.34 4.178 1.381 5.48 2.625a8.066 8.066 0 011.298 1.587c1.468 2.382 1.33 5.376.184 7.142-.85 1.312-2.67 2.544-4.37 2.53-.583-.023-1.438-.152-2.25-.566-2.629-1.343-3.021-4.688-1.118-6.306-.632-.136-1.82.13-2.646 1.363-.742 1.107-.7 2.816-.242 4.028a6.473 6.473 0 01-.59-1.895 7.695 7.695 0 01.416-3.845A8.212 8.212 0 019.45 5.399c.896-1.069 1.908-1.72 2.75-2.005-.54-.471-1.411-.738-2.421-.767C8.31 2.583 6.327 3.061 4.7 4.41a8.148 8.148 0 00-1.976 2.414c-.455.836-.691 1.659-.697 1.678.122-1.445.704-2.994 1.248-4.055-.79.413-1.827 1.668-2.41 3.042C.095 9.37-.2 11.608.14 13.989c.966 5.668 5.9 9.982 11.843 9.982C18.62 23.971 24 18.591 24 11.956a11.93 11.93 0 00-3.548-8.511z"/></svg>
+				</span> Firefox.
+				<!--
+					Yes, Chrome's css rendering is buggy af.
+					In order to fix some visual bugs, I have to enter incorrect size values for parent elements,
+					which for some reason are ignored by Chrome, but not by Firefox (as they should be),
+					so the rendering in Firefox would be completely screwed up, more so than the bugs in Chrome.
+					That's why I don't fix them for now until I find a solution.
+				-->
+			</p>
+		</div>
+	</div>
+</footer>
+
+</body>

@@ -1,0 +1,17 @@
+[{
+    "season_id": 5,
+    "name": "Season_5",
+    "base_url": "https://bingobrawlers.com"
+},
+{
+     "season_id": 4,
+    "name": "Season_4",
+    "base_url": "https://old.bingobrawlers.com"
+},
+{
+     "season_id": 3,
+    "name": "Season_3",
+    "base_url": "https://old.bingobrawlers.com/season/3"
+}
+
+]

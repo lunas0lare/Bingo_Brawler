@@ -1,0 +1,62 @@
+[
+  {
+    "name": "star0chris",
+    "platform": "https://twitch.tv/star0chris",
+    "team": "Positive Vibes"
+  },
+  {
+    "name": "adef",
+    "platform": "https://twitch.tv/adef",
+    "team": "Positive Vibes"
+  },
+  {
+    "name": "blueberrybrioche",
+    "platform": "https://twitch.tv/blueberrybrioche",
+    "team": "FrogCarSpin"
+  },
+  {
+    "name": "NuclearPastaTom",
+    "platform": "https://twitch.tv/nuclearpastatom",
+    "team": "FrogCarSpin"
+  },
+  {
+    "name": "YoJosherino",
+    "platform": "https://twitch.tv/yojosherino",
+    "team": "Itzerino"
+  },
+  {
+    "name": "itzCBD",
+    "platform": "https://twitch.tv/itzcbd",
+    "team": "Itzerino"
+  },
+  {
+    "name": "bushy",
+    "platform": "https://twitch.tv/bushy",
+    "team": "Bushy Stache"
+  },
+  {
+    "name": "Vswed",
+    "platform": "https://twitch.tv/vswed",
+    "team": "Bushy Stache"
+  },
+  {
+    "name": "LilAggy",
+    "platform": "https://twitch.tv/lilaggy",
+    "team": "Monkey Business"
+  },
+  {
+    "name": "Mitchriz",
+    "platform": "https://twitch.tv/mitchriz",
+    "team": "Monkey Business"
+  },
+  {
+    "name": "blanxz",
+    "platform": "https://twitch.tv/blanxz",
+    "team": "Blanxzonetta"
+  },
+  {
+    "name": "nessonetta",
+    "platform": "https://twitch.tv/nessonetta",
+    "team": "Blanxzonetta"
+  }
+]
