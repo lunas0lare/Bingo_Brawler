@@ -51,25 +51,25 @@ def extract_match(soup):
     schedule = soup.select_one('.schedule')
     match_day = schedule.select_one('.match-days')
     day = match_day.select('.match-day')
-    # date_played = list()
-    game_played_time = list()
-    # team = list()
+    
     extracted_data = []
     for each in day:
+        game_played_time = []
         #iterate through each day
         date_played = (each.select_one('.date').string)
 
         games = each.select('.time')
         for game in games:
           game_played_time.append((game.get('datetime')))
-        
+
         teams = each.select('.team')
-        var = list()
-        result = list()
+        var = []
+        result = []
+
         for team in teams:
             var.append(team.select('.name')[-1].string)
             result.append(team.get('class'))
-
+           
         bingo_data = {
             "date_played":date_played,
             "game_played_time": game_played_time,
