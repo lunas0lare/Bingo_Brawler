@@ -42,7 +42,6 @@ def save_to_json(file_name, extracted_data: list):
     extracted_data: a list of objects
     """
    
-    player_dicts = [asdict(p) for p in extracted_data]
 
     with open(file_name, 'w', encoding='utf-8') as f:
-        json.dump(player_dicts, f, indent = 2)
+        json.dump(extracted_data, f, indent = 2, ensure_ascii= False)
