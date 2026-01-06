@@ -1,7 +1,7 @@
 import json
 import requests
 from bs4 import BeautifulSoup
-from season_extract import extract_json_data, Player
+from season_extract import extract_json_data
 from fileHandler import *
 import time
 from datetime import datetime
@@ -67,70 +67,82 @@ def extract_match(soup)->list:
     
     """
     schedule = soup.select_one('.schedule')
-    match_day = schedule.select_one('.match-days')
-    day = match_day.select('.match-day')
+    match_day = schedule.select_one('.match-days, .schedule-container')
+    day = match_day.select('.match-day, .played')
     
     extracted_data = []
-    var_test = {"date_played"}
-    for each in day:
-        game_played_time = []
-        team = []
+    for each in day: 
         result = []
 
         #iterate through each day
         date_played = (each.select_one('.date').string)
 
+        bingo_day = {
+            "date_played": date_played,
+            "games": []
+        }
+
         games = each.select('.time')
-        for game in games:
-          game_played_time.append((game.get('datetime')))
+        matches = each.select('.team')
+        
+        game_times = [g.get('datetime') for g in games]
 
-
-        teams = each.select('.team')
-        test = []
-        for each in teams:
-            result = each.get('class')
+        objs = []
+        if(matches):
+            for m in matches:
+                result = m.get('class') or []
             #result's output is a list like this: ["red", "team", "lose"]
-
-            teams_info = {"name": each.select('.name')[-1].string,
-                          "side": result[0],
-                          "result": result[-1]}
-            test.append(teams_info)
-
-        game = {}
-
-        game["started_at"] = game_played_time
-        game["teams"] = [test[0], test[1]]
+                objs.append({"name": m.select('.name')[-1].string,
+                                "side": result[0] if len(result) > 0 else None,
+                                "result": result[-1] if len(result) > 0 else None})
         
-        
-        # bingo_data = {
-        #     "date_played":date_played,#1
-        #     "game_played_time": game_played_time,#2
-        #     "teams":team,#4
-        #     "result":result#4 lists of 3 items
-        # }
+        players = each.select('[class^=player]')
+        if(players):
+          for red, blue in zip(players[0], players[1]):
+                result_red = players[0].get('class')
+                objs.append({"name": red,
+                                "side": "red"})
+                if(len(result_red) != 1):
+                    objs[-1]["result"] = "winner"
+                else:
+                    objs[-1]["result"] = "loser"
 
+                result_blue = players[1].get('class')
+                objs.append({"name": blue,
+                                  "side": "blue"})
+                if(len(result_blue) != 1):
+                    objs[-1]["result"] = "winner"
+                else:
+                    objs[-1]["result"] = "loser"
+                  
 
-        # bingo_data_test = {
-        #     "play_date": date_played,
-        #     "games":[
-        #         {
-        #             "started": game_played_time[0],
-        #             "teams":[
-        #                 {"name": , "side": , "result":},
-        #                 {"name":, "side":, "result":}
-        #             ]   
-        #         },
-        #         {
-        #             "started": game_played_time[1],
-        #             "teams":[
-        #                 {"name": , "side": , "result":},
-        #                 {"name":, "side":, "result":}
-        #             ]   
-        #         }
-        #     ]
-        # }
+        team_per_game = 2
 
-        # extracted_data.append(bingo_data)
+        for i in range(len(game_times)):
+            
+            start = i * team_per_game
+            end = start + team_per_game
+            bingo_day["games"].append({
+                "started": game_times[i],
+                "teams": objs[start:end],
+            })
+
+        extracted_data.append(bingo_day)
+    return extracted_data
+
+def extract_leaderboard(soup)->list:
+    
+    leaderboard_raw = soup.select_one('.box.leaderboard')
+    
+    #column headers
+    leaderboard_data = leaderboard_raw.select('tr')
+    headers = leaderboard_data[0].get_text().strip().split('\n')
+    extracted_data = []
+    
+    for each in leaderboard_data[1:len(leaderboard_data) - 1]:
+        values = each.get_text().strip().split('\n')
+        row_dict = dict(zip(headers, values))
+        extracted_data.append(row_dict)
     return extracted_data
 
 if __name__ == "__main__":
@@ -147,9 +159,5 @@ if __name__ == "__main__":
 
         data = read_file(f'Season_5/content.txt')
         soup = BeautifulSoup(data, 'html.parser')
-
-        schedule = soup.select_one('.schedule')
-        
-        res = extract_match(soup)
-        save_to_json("Season_5/match", res)
-
+        res = extract_leaderboard(soup)
+        save_to_json("Season_5/leaderboard", res)
