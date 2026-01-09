@@ -107,11 +107,7 @@ def extract_match(soup)->list:
 
     #iterate through each day block(one date containing multiple games)
     for each in day_blocks: 
-
-        date_match_happens = (each.select_one('.date').string)
-
         bingo_day = {
-            "date_played": date_match_happens,
             "games": []
         }
 
@@ -191,7 +187,6 @@ def extract_leaderboard(soup)->list:
     #leaderboard header
     headers = leaderboard_data[0].get_text().strip().split('\n')
     headers.insert(0, "index")
-    print(headers)
     #subsequent leaderboard row. 
     for each in leaderboard_data[1:len(leaderboard_data) - 1]:
         values = each.get_text().strip().split('\n')
@@ -240,7 +235,7 @@ def extract_playoff(soup) -> list:
     matches_raw = soup.select_one('.bracket')
     matchs_tables = matches_raw.select('[class^=match]')
     #playoff header got from first match table
-    header = matchs_tables[0].thead.select_one('tr').get_text(" ").split(' ')
+    header = matchs_tables[0].thead.select_one('tr').get_text(" ", strip = True).split(' ')
     
     #parse each match table into a normalized object
     for each in matchs_tables: 
@@ -255,8 +250,7 @@ def extract_playoff(soup) -> list:
         team_rows = each.tbody.find_all('tr')
 
         for i, t in enumerate(team_rows):
-            row_values = t.get_text(" ").split(' ')
-            
+            row_values = t.get_text(" ", strip = True).split(' ')
             #handle multi-word teams name: if second item is not a number, 
             #it mean team has 2 word name.
             if (not row_values[1].isdigit()):
