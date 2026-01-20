@@ -34,17 +34,17 @@ if __name__ == "__main__":
             data = read_file(f'Season_{season}/content.txt')
             soup = BeautifulSoup(data, 'html.parser')
 
-            # print("crawling player data...")
-            # save_to_json(f"Season_{season}/player", extract_players(soup))
+            print("crawling player data...")
+            save_to_json(f"Season_{season}/player", extract_players(soup))
 
-            # print("crawling match data...")
-            # save_to_json(f"Season_{season}/match", extract_match(soup))
+            print("crawling match data...")
+            save_to_json(f"Season_{season}/match", extract_match(soup))
 
             print("crawling leaderboard data...")
             save_to_json(f"Season_{season}/leaderboard", extract_leaderboard(soup))
 
-            # print("crawling playoff data...")
-            # save_to_json(f"Season_{season}/playoff", extract_playoff(soup))
+            print("crawling playoff data...")
+            save_to_json(f"Season_{season}/playoff", extract_playoff(soup))
 
         except FileNotFoundError as e:      
             print(f"file not found: {e}")

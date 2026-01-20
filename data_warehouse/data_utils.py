@@ -61,10 +61,8 @@ def create_table(schema):
 
         ,f"""
                 Create TABLE IF NOT EXISTS {schema}.Match(
-                "Started" TIMESTAMP NOT NULL,
-                "Team" VARCHAR (20),
-                "Side" VARCHAR (10),
-                "Result" VARCHAR (5)
+                "date_played" TIMESTAMP NOT NULL,
+                "team" JSONB NOT NULL
                 );
         """
         ,f"""
@@ -77,12 +75,8 @@ def create_table(schema):
 
         ,f"""
                 Create TABLE IF NOT EXISTS {schema}.Playoff(
-                "Date" TIMESTAMP NOT NULL,
-                "Team" VARCHAR (20),
-                "Scores" INT,
-                "Lines" INT,
-                "Wins" INT, 
-                "Side" VARCHAR(10)
+                "date_played" TIMESTAMP NOT NULL,
+                "team" JSONB NOT NULL
                 );
         """
     ]

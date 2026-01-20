@@ -9,4 +9,4 @@ create_table("staging")
 
 datasets = load_data(5)
 
-insert_to_staging(conn, cur, datasets['player'], 'player')
+insert_to_staging(conn, cur, datasets['leaderboard'], 'leaderboard')

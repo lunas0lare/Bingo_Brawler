@@ -107,9 +107,8 @@ def extract_match(soup)->list:
 
     #iterate through each day block(one date containing multiple games)
     for each in day_blocks: 
-        bingo_day = {
-            "games": []
-        }
+        # bingo_day = {
+        # }
 
         participants = []
 
@@ -152,12 +151,12 @@ def extract_match(soup)->list:
         for i in range(len(game_start_times)):
             start = i * team_per_game
             end = start + team_per_game
-            bingo_day["games"].append({
+            extracted_data.append({
                 "started": game_start_times[i],
                 "teams": participants[start:end],
             })
 
-        extracted_data.append(bingo_day)
+        # extracted_data.append(bingo_day)
     return extracted_data
 
 def extract_leaderboard(soup)->list:
@@ -192,7 +191,9 @@ def extract_leaderboard(soup)->list:
         values = each.get_text().strip().split('\n')
         row_dict = dict(zip(headers, values))
 
-        extracted_data.append(row_dict)
+        #remove the last data row, which is the description
+        if(len(values[0]) < 10):
+            extracted_data.append(row_dict)
     return extracted_data
 
 def extract_playoff(soup) -> list:
