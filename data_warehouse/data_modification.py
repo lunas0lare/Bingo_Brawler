@@ -33,3 +33,14 @@ def insert_to_staging(conn, cur, data, table) -> None:
     cur.executemany(sql, data)
     conn.commit()
 
+def flatten_match(conn, cur):
+    with open("data_warehouse/sql/match_flatten.sql", 'r', encoding='utf-8') as f:
+        cur.execute(f.read())
+        conn.commit()
+def flatten_playoff(conn, cur):
+    with open("data_warehouse/sql/playoff_flatten.sql", 'r', encoding='utf-8') as f:
+        cur.execute(f.read())
+        conn.commit()
+def flatten_all(conn, cur):
+    flatten_playoff(conn, cur)
+    flatten_match(conn, cur)

@@ -150,3 +150,8 @@ def create_table(schema):
     conn.commit()
 
     close_conn_cursor(conn, cur)
+
+def create_staging_flat(conn, cur):
+    with open("data_warehouse/sql/staging_flat.sql", 'r', encoding='utf-8') as f:
+        cur.execute(f.read())
+        conn.commit()
