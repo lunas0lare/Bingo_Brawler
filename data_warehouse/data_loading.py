@@ -1,6 +1,6 @@
 import json 
 import os
-def load_data(season: int):
+def load_data(season: int) -> dict[str, str]:
     folder = f'Season_{season}'
     datasets = dict()
     try:
@@ -17,3 +17,9 @@ def load_data(season: int):
         print(f"File not found: {path_name}")   
     except json.JSONDecodeError as e:
         print(f"Invalid JSON in file {path_name}: {e}")
+
+def load_season_list():
+    dataset = dict()
+    with open('config/season.json', 'r', encoding='utf-8') as raw_data:
+        dataset['season'] = json.load(raw_data)
+    return dataset

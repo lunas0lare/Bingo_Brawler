@@ -79,28 +79,37 @@ def create_table(schema):
                 "team" JSONB NOT NULL
                 );
         """
+
+        ,f"""
+                CREATE TABLE IF NOT EXISTS {schema}.Season(
+                "Season_id" INT NOT NULL ,
+                "Mode" VARCHAR (10),
+                "Link" VARCHAR (50)
+                )
+        """
     ]
     if schema == "core":
         ddls =[
         f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Player(
                 "Player_id" VARCHAR(5) NOT NULL PRIMARY KEY,
-                "Name" VARCHAR (20),
-                "Link" VARCHAR (200)
+                "Name" VARCHAR (20) UNIQUE NOT NULL,
+                "Link" VARCHAR (200) 
                 )
         """
         
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Season(
                 "Season_id" INT NOT NULL PRIMARY KEY,
-                "Mode" VARCHAR (10)
+                "Mode" VARCHAR (10),
+                "Link" VARCHAR (50)
                 )
         """
 
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Team(
                 "Team_id" VARCHAR (5) NOT NULL PRIMARY KEY,
-                "Team_name" VARCHAR (20)
+                "Team_name" VARCHAR (20) UNIQUE NOT NULL
                 )
         """
 

@@ -1,5 +1,10 @@
 from psycopg2.extras import Json
 def insert_to_staging(conn, cur, data, table) -> None:
+    if table == 'season':
+        sql = f"""
+            INSERT INTO staging.{table} ("Season_id", "Mode", "Link")
+            VALUES (%(season_id)s, %(type)s, %(base_url)s)
+        """
     if table == 'leaderboard':
         sql = f"""
             INSERT INTO staging.{table} ("Index", "Team", "Wins", "Loses", "Scores", "Lines")
@@ -33,8 +38,8 @@ def insert_to_staging(conn, cur, data, table) -> None:
     cur.executemany(sql, data)
     conn.commit()
 
-def insert_into_core(conn, cur, data, table) -> None:
-    if table == "player":
+def insert_into_core(conn, cur, data, table: str) -> None:
+    if table.lower() == "player":
         sql = f"""
             CREATE SEQUENCE IF NOT EXISTS core.{table}_seq start 1;
 
@@ -44,45 +49,49 @@ def insert_into_core(conn, cur, data, table) -> None:
 
             INSERT INTO core.{table} ("Name", "Link") 
             VALUES (%(Name)s, %(Link)s)
+            ON CONFLICT ("Name") DO NOTHING;
         """
-    elif table == "Team":
+    elif table.lower() == "team":
         sql = f"""
-            CREATE SEQUENCE IF NOT EXISTS core.Team_seq start 1;
+            CREATE SEQUENCE IF NOT EXISTS core.{table}_seq start 1;
 
-            ALTER TABKE core."Team"
-            ALTER COLUMN "Team.Team_id" SET DEFAULT(
-            'T' || LPAD(nextval('core.Team_seq')), 3, '0');
+            ALTER TABLE core.{table}
+            ALTER COLUMN "Team_id" SET DEFAULT(
+            'T' || LPAD(nextval('core.{table}_seq')::text, 3, '0'));
 
             INSERT INTO core.{table} ("Team_name") 
-            VALUES (%(Team_name)s)
+            VALUES (%(Team)s)
+            ON CONFLICT ("Team_name") DO NOTHING;
         """
-    elif table == "Match":
+    elif table.lower() == "match":
         sql = f"""
-            CREATE SEQUENCE IF NOT EXISTS core.Match_seq start 1;
+            CREATE SEQUENCE IF NOT EXISTS core.{table}_seq start 1;
 
-            ALTER TABKE core."Match"
-            ALTER COLUMN "Match.Match_id" SET DEFAULT(
-            'M' || LPAD(nextval('core.Match_seq')), 3, '0');
+            ALTER TABKE core.{table}
+            ALTER COLUMN "Match_id" SET DEFAULT(
+            'M' || LPAD(nextval('core.{table}_seq')::text, 3, '0'));
 
             INSERT INTO core.{table} ("Season_id", "Date_played", "Match_type") 
             VALUES (%(Season_id)s, %(Date_played)s, %(Match_type)s)
         """
-    elif table == "Season":
+    elif table.lower() == "season":
         sql = f"""
-            INSERT INTO core.{table} ("Season_id", "Mode") 
-            VALUES (%(Season_id)s, %(Mode)s)
+            INSERT INTO core.{table} ("Season_id", "Mode", "Link") 
+            VALUES (%(Season_id)s, %(Mode)s, %(Link)s)
+            ON CONFLICT DO NOTHING;
         """
-    elif table == "Match_participant":
+    elif table.lower() == "match_participant":
         sql = f"""
             INSERT INTO core.{table} ("Match_id", "Participant_id", "Participant_type", "Result", "Side") 
             VALUES (%(Match_id)s, %(Participant_id)s, %(Participant_type)s, %(Result)s, %(Side)s)
         """
-    elif table == "Leaderboard":
+    elif table.lower() == "leaderboard":
         sql = f"""
             INSERT INTO core.{table} ("Season_id", "Participant_id", "Participant_type", "Wins", "Loses", "Scores", "Lines") 
             VALUES (%(Season_id)s, %(Participant_id)s, %(Participant_type)s, %(Wins)s, %(Loses)s, %(Scores)s, %(Lines)s)
+            ON CONFLICT "Season_id" DO NOTHING;
         """
-    elif table == "Team_member":
+    elif table.lower() == "team_member":
         sql = f"""
             INSERT INTO core.{table} ("Season_id", "Team_id", "Player_id") 
             VALUES (%(Season_id)s, %(Team_id)s, %(Player_id)s)

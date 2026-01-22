@@ -1,4 +1,4 @@
-truncate staging.match_flat;
+truncate staging.playoff_flat;
 
 insert into staging.playoff_flat("Date_played", "Team", "Side", "Scores", "Wins", "Loses")
 select 
