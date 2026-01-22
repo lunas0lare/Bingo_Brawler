@@ -33,14 +33,61 @@ def insert_to_staging(conn, cur, data, table) -> None:
     cur.executemany(sql, data)
     conn.commit()
 
-def flatten_match(conn, cur):
-    with open("data_warehouse/sql/match_flatten.sql", 'r', encoding='utf-8') as f:
-        cur.execute(f.read())
-        conn.commit()
-def flatten_playoff(conn, cur):
-    with open("data_warehouse/sql/playoff_flatten.sql", 'r', encoding='utf-8') as f:
-        cur.execute(f.read())
-        conn.commit()
-def flatten_all(conn, cur):
-    flatten_playoff(conn, cur)
-    flatten_match(conn, cur)
+def insert_into_core(conn, cur, data, table) -> None:
+    if table == "player":
+        sql = f"""
+            CREATE SEQUENCE IF NOT EXISTS core.{table}_seq start 1;
+
+            ALTER TABLE core.{table}
+            ALTER COLUMN "Player_id" SET DEFAULT (
+            'P' || LPAD(nextval('core.{table}_seq')::text, 3, '0'));
+
+            INSERT INTO core.{table} ("Name", "Link") 
+            VALUES (%(Name)s, %(Link)s)
+        """
+    elif table == "Team":
+        sql = f"""
+            CREATE SEQUENCE IF NOT EXISTS core.Team_seq start 1;
+
+            ALTER TABKE core."Team"
+            ALTER COLUMN "Team.Team_id" SET DEFAULT(
+            'T' || LPAD(nextval('core.Team_seq')), 3, '0');
+
+            INSERT INTO core.{table} ("Team_name") 
+            VALUES (%(Team_name)s)
+        """
+    elif table == "Match":
+        sql = f"""
+            CREATE SEQUENCE IF NOT EXISTS core.Match_seq start 1;
+
+            ALTER TABKE core."Match"
+            ALTER COLUMN "Match.Match_id" SET DEFAULT(
+            'M' || LPAD(nextval('core.Match_seq')), 3, '0');
+
+            INSERT INTO core.{table} ("Season_id", "Date_played", "Match_type") 
+            VALUES (%(Season_id)s, %(Date_played)s, %(Match_type)s)
+        """
+    elif table == "Season":
+        sql = f"""
+            INSERT INTO core.{table} ("Season_id", "Mode") 
+            VALUES (%(Season_id)s, %(Mode)s)
+        """
+    elif table == "Match_participant":
+        sql = f"""
+            INSERT INTO core.{table} ("Match_id", "Participant_id", "Participant_type", "Result", "Side") 
+            VALUES (%(Match_id)s, %(Participant_id)s, %(Participant_type)s, %(Result)s, %(Side)s)
+        """
+    elif table == "Leaderboard":
+        sql = f"""
+            INSERT INTO core.{table} ("Season_id", "Participant_id", "Participant_type", "Wins", "Loses", "Scores", "Lines") 
+            VALUES (%(Season_id)s, %(Participant_id)s, %(Participant_type)s, %(Wins)s, %(Loses)s, %(Scores)s, %(Lines)s)
+        """
+    elif table == "Team_member":
+        sql = f"""
+            INSERT INTO core.{table} ("Season_id", "Team_id", "Player_id") 
+            VALUES (%(Season_id)s, %(Team_id)s, %(Player_id)s)
+        """
+    else:
+        raise ValueError(f"Unknown table: {table}")
+    cur.execute(sql, data)
+    conn.commit()
