@@ -61,13 +61,13 @@ def create_table(schema):
 
         ,f"""
                 Create TABLE IF NOT EXISTS {schema}.Match(
-                "date_played" TIMESTAMP NOT NULL,
-                "team" JSONB NOT NULL
+                "Date_played" TIMESTAMP PRIMARY KEY NOT NULL,
+                "Team" JSONB NOT NULL
                 );
         """
         ,f"""
                 Create TABLE IF NOT EXISTS {schema}.Player(
-                "Name" VARCHAR (20) NOT NULL,
+                "Name" VARCHAR (20) PRIMARY KEY NOT NULL,
                 "Link" VARCHAR (200),
                 "Team" VARCHAR (20)
                 );
@@ -75,14 +75,14 @@ def create_table(schema):
 
         ,f"""
                 Create TABLE IF NOT EXISTS {schema}.Playoff(
-                "date_played" TIMESTAMP NOT NULL,
-                "team" JSONB NOT NULL
+                "Date_played" TIMESTAMP PRIMARY KEY NOT NULL,
+                "Team" JSONB NOT NULL
                 );
         """
 
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Season(
-                "Season_id" INT NOT NULL ,
+                "Season_id" INT PRIMARY KEY NOT NULL,
                 "Mode" VARCHAR (10),
                 "Link" VARCHAR (50)
                 )
@@ -100,7 +100,7 @@ def create_table(schema):
         
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Season(
-                "Season_id" INT NOT NULL PRIMARY KEY,
+                "Season_id" INT PRIMARY KEY NOT NULL,
                 "Mode" VARCHAR (10),
                 "Link" VARCHAR (50)
                 )
@@ -108,7 +108,7 @@ def create_table(schema):
 
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Team(
-                "Team_id" VARCHAR (5) NOT NULL PRIMARY KEY,
+                "Team_id" VARCHAR (5) PRIMARY KEY NOT NULL,
                 "Team_name" VARCHAR (20) UNIQUE NOT NULL
                 )
         """
@@ -116,7 +116,7 @@ def create_table(schema):
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Match(
                 "Match_id" VARCHAR (5) NOT NULL,
-                "Season_id" INT NOT NULL,
+                "Season_id" INT NOT NULL references {schema}.season("Season_id"),
                 "Date_played" TIMESTAMP NOT NULL,
                 "Match_type" VARCHAR (10),
                 constraint match_pk primary key("Match_id", "Season_id")
@@ -125,7 +125,7 @@ def create_table(schema):
 
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Leaderboard(
-                "Season_id" INT,
+                "Season_id" INT references {schema}.Season("Season_id"),
                 "Participant_id" VARCHAR (5),
                 "Participant_Type" VARCHAR (10),
                 "Wins" INT,
@@ -139,7 +139,7 @@ def create_table(schema):
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Match_participant(
                 "Match_id" VARCHAR (5) NOT NULL,
-                "side" VARCHAR (10),
+                "Side" VARCHAR (10),
                 "Participant_id" VARCHAR (5),
                 "Participant_Type" VARCHAR (10),
                 "Result" VARCHAR (5),
@@ -149,9 +149,9 @@ def create_table(schema):
 
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Team_member(
-                "Season_id" INT NOT NULL,
-                "Team_id" VARCHAR (5) NOT NULL,
-                "Player_id" VARCHAR(5) NOT NULL,
+                "Season_id" INT NOT NULL references {schema}.Season("Season_id"),
+                "Team_id" VARCHAR (5) NOT NULL references {schema}.Team("Team_id"),
+                "Player_id" VARCHAR(5) NOT NULL references {schema}.Player("Player_id"),
                 constraint member_pk primary key ("Season_id", "Team_id", "Player_id")
                 )
         """

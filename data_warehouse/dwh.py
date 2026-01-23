@@ -23,6 +23,7 @@ def staging_table():
 
     for key, value in season_list.items():
         insert_to_staging(conn, cur, value, key)
+        tables.append('season')
 
     for key, value in Bingo_data.items():
         tables.append(key)
@@ -54,12 +55,13 @@ def core_table():
             for row in rows:
                 insert_into_core(conn, cur, row, 'player')
                 insert_into_core(conn, cur, row, 'team')
-        elif table == 'match_flatten':
-            for row in rows:
-                insert_into_core(conn, cur, row, 'match')
         elif table == 'season':
             for row in rows:
                 insert_into_core(conn, cur, row, 'season')
+        elif table == 'match_flatten':
+            for row in rows:
+                insert_into_core(conn, cur, row, 'match')
+        
 
 staging_table()
 core_table()
