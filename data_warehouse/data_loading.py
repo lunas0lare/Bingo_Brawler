@@ -4,7 +4,7 @@ def load_data(season: int) -> dict[str, str]:
     folder = f'Season_{season}'
     datasets = dict()
     try:
-       
+        datasets['season'] = [load_season_list(season)]
         for filename in os.listdir(folder):
             if (filename.endswith('json')):
                 path_name = os.path.join(folder, filename)
@@ -18,8 +18,7 @@ def load_data(season: int) -> dict[str, str]:
     except json.JSONDecodeError as e:
         print(f"Invalid JSON in file {path_name}: {e}")
 
-def load_season_list():
-    dataset = dict()
+def load_season_list(season: int):
     with open('config/season.json', 'r', encoding='utf-8') as raw_data:
-        dataset['season'] = json.load(raw_data)
-    return dataset
+       json_object = json.load(raw_data)
+    return next(s for s in json_object if s['season_id'] == season)

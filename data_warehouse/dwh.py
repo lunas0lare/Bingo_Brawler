@@ -1,15 +1,15 @@
-from data_utils import get_conn_cursor, close_conn_cursor, create_table, create_schema, create_staging_flat
+from data_utils import *
 from data_modification import *
 from data_loading import *
 from data_transformation import flatten_match, flatten_playoff
 conn, cur = get_conn_cursor()
 
 Bingo_data = dict()
-season_list = dict()
+
 tables = list()
 
 Bingo_data = load_data(5)
-season_list = load_season_list()
+
 
 def staging_table():
     schema = "staging"
@@ -20,10 +20,6 @@ def staging_table():
 
     create_schema(schema)
     create_table(schema)
-
-    for key, value in season_list.items():
-        insert_to_staging(conn, cur, value, key)
-        tables.append('season')
 
     for key, value in Bingo_data.items():
         tables.append(key)
@@ -50,18 +46,21 @@ def core_table():
     for table in tables:
         cur.execute(f"SELECT * FROM staging.{table};")
         rows = cur.fetchall()
-
         if table == 'player':
             for row in rows:
                 insert_into_core(conn, cur, row, 'player')
+            for row in rows:
                 insert_into_core(conn, cur, row, 'team')
+            for row in rows:
+                insert_into_core(conn, cur, row, 'team_member')
         elif table == 'season':
             for row in rows:
                 insert_into_core(conn, cur, row, 'season')
         elif table == 'match_flatten':
             for row in rows:
                 insert_into_core(conn, cur, row, 'match')
-        
 
+drop_schema('staging')
+drop_schema('core') 
 staging_table()
 core_table()

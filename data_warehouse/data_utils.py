@@ -67,9 +67,11 @@ def create_table(schema):
         """
         ,f"""
                 Create TABLE IF NOT EXISTS {schema}.Player(
-                "Name" VARCHAR (20) PRIMARY KEY NOT NULL,
+                "Name" VARCHAR (20) UNIQUE NOT NULL,
                 "Link" VARCHAR (200),
-                "Team" VARCHAR (20)
+                "Team" VARCHAR (20),
+                "Season" INT,
+                CONSTRAINT player_name_link_UK UNIQUE ("Name", "Link")
                 );
         """
 
@@ -117,7 +119,7 @@ def create_table(schema):
                 CREATE TABLE IF NOT EXISTS {schema}.Match(
                 "Match_id" VARCHAR (5) NOT NULL,
                 "Season_id" INT NOT NULL references {schema}.season("Season_id"),
-                "Date_played" TIMESTAMP NOT NULL,
+                "Date_played" TIMESTAMP UNIQUE NOT NULL,
                 "Match_type" VARCHAR (10),
                 constraint match_pk primary key("Match_id", "Season_id")
                 )
@@ -165,5 +167,19 @@ def create_table(schema):
 
 def create_staging_flat(conn, cur):
     with open("data_warehouse/sql/staging_flat.sql", 'r', encoding='utf-8') as f:
-        cur.execute(f.read())
+        try:
+            cur.execute(f.read())
+            conn.commit()
+        except Exception as e:
+            conn.rollback()
+            print(f"FAILED SQL: {e}")
+            raise
+
+def drop_schema(schema):
+    try:
+        sql =f"""
+        DROP SCHEMA IF EXISTS {schema} CASCADE;"""
+        cur.execute(sql)
         conn.commit()
+    except Exception as e:
+        print(f"ERROR: Cannot drop schema {schema}: {e}")    
