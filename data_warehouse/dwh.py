@@ -59,6 +59,9 @@ def core_table():
         elif table == 'match_flatten':
             for row in rows:
                 insert_into_core(conn, cur, row, 'match')
+        elif table == 'leaderboard':
+            for row in rows:
+                insert_into_core(conn, cur, row, 'leaderboard')
 
 drop_schema('staging')
 drop_schema('core') 

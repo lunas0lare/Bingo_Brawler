@@ -1,5 +1,6 @@
 from psycopg2.extras import Json
 CUR_SEASON = None
+CUR_MODE = None
 def insert_to_staging(conn, cur, data: list, table: str) -> None:
     global CUR_SEASON
     try:
@@ -54,7 +55,9 @@ def insert_to_staging(conn, cur, data: list, table: str) -> None:
     except Exception as e:
         print(f"ERROR in insert_to_staging, at table {table}: {e}")
 
-def insert_into_core(conn, cur, data, table: str) -> None:
+def insert_into_core(conn, cur, data: dict, table: str) -> None:
+    global CUR_SEASON
+    global CUR_MODE
     if table.lower() == "player":
         sql = f"""
             CREATE SEQUENCE IF NOT EXISTS core.{table}_seq start 1;
@@ -100,6 +103,8 @@ def insert_into_core(conn, cur, data, table: str) -> None:
             
         """
     elif table.lower() == "season":
+        CUR_SEASON = data['Season_id']
+        CUR_MODE = data['Mode']
         sql = f"""
             INSERT INTO core.{table} ("Season_id", "Mode", "Link") 
             VALUES (%(Season_id)s, %(Mode)s, %(Link)s)
@@ -111,23 +116,34 @@ def insert_into_core(conn, cur, data, table: str) -> None:
             VALUES (%(Match_id)s, %(Participant_id)s, %(Participant_type)s, %(Result)s, %(Side)s)
         """
     elif table.lower() == "leaderboard":
+        data['Season_id'] = CUR_SEASON
+        data['Participant_Type'] = CUR_MODE
+
         sql = f"""
-            INSERT INTO core.{table} ("Season_id", "Participant_id", "Participant_type", "Wins", "Loses", "Scores", "Lines") 
-            VALUES (%(Season_id)s, %(Participant_id)s, %(Participant_type)s, %(Wins)s, %(Loses)s, %(Scores)s, %(Lines)s)
-            ON CONFLICT "Season_id" DO NOTHING;
+            CREATE SEQUENCE IF NOT EXISTS core.{table}_seq start 1;
+
+            ALTER TABLE core.{table}
+            ALTER COLUMN "Participant_id" SET DEFAULT(
+            'L' || LPAD(nextval('core.{table}_seq')::text, 3, '0'));
+
+            INSERT INTO core.{table} ("Season_id", "Participant_Type", "Wins", "Loses", "Scores", "Lines") 
+            VALUES (%(Season_id)s, %(Participant_Type)s, %(Wins)s, %(Loses)s, %(Scores)s, %(Lines)s)
+            ON CONFLICT ("Season_id", "Participant_id") DO NOTHING;
         """
     elif table.lower() == "team_member":
         sql = f"""
-            INSERT INTO core.{table} ("Season_id", "Team_id", "Player_id") 
-            SELECT DISTINCT
-            sp."Season"         AS "Season_id",
-            p."Player_id"            AS "Player_id",
-            t."Team_id"       AS "Team_id"
+           INSERT INTO core.team_member  ("Season_id", "Team_id", "Player_id") 
+            SELECT distinct 
+            sp."Season" AS "Season_id",
+            t."Team_id" AS "Team_id",
+            p."Player_id" AS "Player_id"
 
-            FROM staging.player sp
+            FROM staging.player as sp
             INNER JOIN core.player p ON sp."Link" = p."Link"
             INNER JOIN core.team t ON sp."Team" = t."Team_name"
+
             On CONFLICT("Season_id", "Team_id", "Player_id") DO NOTHING;
+
         """
     else:
         raise ValueError(f"Unknown table: {table}")
