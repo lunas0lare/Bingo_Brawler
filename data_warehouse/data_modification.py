@@ -112,23 +112,43 @@ def insert_into_core(conn, cur, data: dict, table: str) -> None:
         """
     elif table.lower() == "match_participant":
         sql = f"""
-            INSERT INTO core.{table} ("Match_id", "Participant_id", "Participant_type", "Result", "Side") 
-            VALUES (%(Match_id)s, %(Participant_id)s, %(Participant_type)s, %(Result)s, %(Side)s)
+            INSERT INTO core.{table}_team ("Match_id", "Team_id", "Result", "Side") 
+            SELECT 
+                m."Match_id",
+                t."Team_id",
+                mf."Result",
+                mf."Side"
+            FROM 
+                staging.match_flatten mf
+            INNER JOIN 
+                core.match m
+            ON 
+                mf."Date_played" = m."Date_played"
+            INNER JOIN 
+                core.team t
+            ON 
+                mf."Team" = t."Team_name"
+            ON CONFLICT ("Match_id", "Team_id") DO NOTHING;
         """
     elif table.lower() == "leaderboard":
         data['Season_id'] = CUR_SEASON
-        data['Participant_Type'] = CUR_MODE
-
         sql = f"""
-            CREATE SEQUENCE IF NOT EXISTS core.{table}_seq start 1;
-
-            ALTER TABLE core.{table}
-            ALTER COLUMN "Participant_id" SET DEFAULT(
-            'L' || LPAD(nextval('core.{table}_seq')::text, 3, '0'));
-
-            INSERT INTO core.{table} ("Season_id", "Participant_Type", "Wins", "Loses", "Scores", "Lines") 
-            VALUES (%(Season_id)s, %(Participant_Type)s, %(Wins)s, %(Loses)s, %(Scores)s, %(Lines)s)
-            ON CONFLICT ("Season_id", "Participant_id") DO NOTHING;
+            INSERT INTO core.{table}_team ("Season_id", "Team_id", "Wins", "Loses", "Scores", "Lines") 
+            SELECT
+                %(Season_id)s,
+                t."Team_id",
+                l."Wins",
+                l."Loses",
+                l."Scores",
+                l."Lines"
+            FROM 
+                core.team as t
+            INNER JOIN 
+                staging.leaderboard as l
+            ON
+                t."Team_name" = l."Team"
+            
+            ON CONFLICT ("Season_id", "Team_id") DO NOTHING;
         """
     elif table.lower() == "team_member":
         sql = f"""

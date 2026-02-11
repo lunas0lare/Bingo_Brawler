@@ -94,7 +94,7 @@ def create_table(schema):
         ddls =[
         f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Player(
-                "Player_id" VARCHAR(5) NOT NULL PRIMARY KEY,
+                "Player_id" VARCHAR(10) NOT NULL PRIMARY KEY,
                 "Name" VARCHAR (20) UNIQUE NOT NULL,
                 "Link" VARCHAR (200) 
                 )
@@ -110,50 +110,70 @@ def create_table(schema):
 
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Team(
-                "Team_id" VARCHAR (5) PRIMARY KEY NOT NULL,
+                "Team_id" VARCHAR (10) PRIMARY KEY NOT NULL,
                 "Team_name" VARCHAR (20) UNIQUE NOT NULL
                 )
         """
 
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Match(
-                "Match_id" VARCHAR (5) NOT NULL,
+                "Match_id" VARCHAR (10) NOT NULL,
                 "Season_id" INT NOT NULL references {schema}.season("Season_id"),
                 "Date_played" TIMESTAMP UNIQUE NOT NULL,
                 "Match_type" VARCHAR (10),
-                constraint match_pk primary key("Match_id", "Season_id")
+                constraint match_pk primary key("Match_id")
                 )
         """
 
         ,f"""
-                CREATE TABLE IF NOT EXISTS {schema}.Leaderboard(
+                CREATE TABLE IF NOT EXISTS {schema}.Leaderboard_single(
                 "Season_id" INT references {schema}.Season("Season_id"),
-                "Participant_id" VARCHAR (5),
-                "Participant_Type" VARCHAR (10),
+                "Player_id" VARCHAR (10) references {schema}.Player("Player_id"),
                 "Wins" INT,
                 "Loses" INT,
                 "Scores" INT,
                 "Lines" INT,
-                constraint Season_pk primary key("Season_id", "Participant_id")
+                constraint Season_single_pk primary key("Season_id", "Player_id")
                 )
         """
 
         ,f"""
-                CREATE TABLE IF NOT EXISTS {schema}.Match_participant(
-                "Match_id" VARCHAR (5) NOT NULL,
+                CREATE TABLE IF NOT EXISTS {schema}.Leaderboard_team(
+                "Season_id" INT references {schema}.Season("Season_id"), 
+                "Team_id" VARCHAR (10) references {schema}.Team("Team_id"),
+                "Wins" INT,
+                "Loses" INT,
+                "Scores" INT,
+                "Lines" INT,
+                constraint Season_team_pk primary key("Season_id", "Team_id")
+                )
+        """
+
+        ,f"""
+                CREATE TABLE IF NOT EXISTS {schema}.Match_participant_single(
+                "Match_id" VARCHAR (10) references {schema}.Match("Match_id"),
+                "Player_id" VARCHAR (10) references {schema}.Player("Player_id"),
                 "Side" VARCHAR (10),
-                "Participant_id" VARCHAR (5),
-                "Participant_Type" VARCHAR (10),
-                "Result" VARCHAR (5),
-                constraint match_participant_pk primary key("Match_id", "Participant_id")
+                "Result" VARCHAR (10),
+                constraint match_participant_single_pk primary key("Match_id", "Player_id")
+                )
+        """
+
+        ,f"""
+                CREATE TABLE IF NOT EXISTS {schema}.Match_participant_team(
+                "Match_id" VARCHAR (10) references {schema}.Match("Match_id"),
+                "Team_id" VARCHAR (10) references {schema}.Team("Team_id"),
+                "Side" VARCHAR (10),
+                "Result" VARCHAR (10),
+                constraint match_participant_team_pk primary key("Match_id", "Team_id")
                 )
         """
 
         ,f"""
                 CREATE TABLE IF NOT EXISTS {schema}.Team_member(
                 "Season_id" INT NOT NULL references {schema}.Season("Season_id"),
-                "Team_id" VARCHAR (5) NOT NULL references {schema}.Team("Team_id"),
-                "Player_id" VARCHAR(5) NOT NULL references {schema}.Player("Player_id"),
+                "Team_id" VARCHAR (10) NOT NULL references {schema}.Team("Team_id"),
+                "Player_id" VARCHAR(10) NOT NULL references {schema}.Player("Player_id"),
                 constraint member_pk primary key ("Season_id", "Team_id", "Player_id")
                 )
         """

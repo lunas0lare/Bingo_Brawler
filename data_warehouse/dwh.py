@@ -8,7 +8,7 @@ Bingo_data = dict()
 
 tables = list()
 
-Bingo_data = load_data(5)
+Bingo_data = load_data(4)
 
 
 def staging_table():
@@ -59,9 +59,10 @@ def core_table():
         elif table == 'match_flatten':
             for row in rows:
                 insert_into_core(conn, cur, row, 'match')
-        elif table == 'leaderboard':
-            for row in rows:
-                insert_into_core(conn, cur, row, 'leaderboard')
+
+    insert_into_core(conn, cur, row, 'leaderboard')           
+    insert_into_core(conn, cur, [], 'match_participant')
+        
 
 drop_schema('staging')
 drop_schema('core') 
