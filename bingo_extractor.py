@@ -184,11 +184,18 @@ def extract_leaderboard(soup)->list:
 
    
     #leaderboard header
-    headers = leaderboard_data[0].get_text().strip().split('\n')
+    headers = leaderboard_data[0].get_text().strip().split('\n') #list
     headers.insert(0, "index")
+    
+    #replace Player into Team for easier design in the future
+    for i in range(len(headers)):
+        if(headers[i] == 'Player'):
+            headers[i] = 'Team'
+
     #subsequent leaderboard row. 
     for each in leaderboard_data[1:len(leaderboard_data) - 1]:
         values = each.get_text().strip().split('\n')
+        
         row_dict = dict(zip(headers, values))
 
         #remove the last data row, which is the description
