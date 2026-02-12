@@ -71,6 +71,9 @@ def insert_into_core(conn, cur, data: dict, table: str) -> None:
             ON CONFLICT ("Name") DO NOTHING;
         """
     elif table.lower() == "team":
+        team = data.get("Team")
+        if not team or team.lower() in ("none", "null", "na", "n/a", ""):
+            return
         sql = f"""
             CREATE SEQUENCE IF NOT EXISTS core.{table}_seq start 1;
 
@@ -92,13 +95,13 @@ def insert_into_core(conn, cur, data: dict, table: str) -> None:
 
             INSERT INTO core.{table} ("Season_id", "Date_played", "Match_type") 
             SELECT 
-                s."Season_id",
+                {CUR_SEASON},
                 %(Date_played)s::timestamp,
                 s."Mode"
             FROM 
                 core.season as s
             WHERE 
-                s."Season_id" = "Season_id"
+                s."Season_id" = {CUR_SEASON}
             ON CONFLICT ("Date_played") DO NOTHING;
             
         """
@@ -111,45 +114,84 @@ def insert_into_core(conn, cur, data: dict, table: str) -> None:
             ON CONFLICT DO NOTHING;
         """
     elif table.lower() == "match_participant":
-        sql = f"""
-            INSERT INTO core.{table}_team ("Match_id", "Team_id", "Result", "Side") 
-            SELECT 
-                m."Match_id",
-                t."Team_id",
-                mf."Result",
-                mf."Side"
-            FROM 
-                staging.match_flatten mf
-            INNER JOIN 
-                core.match m
-            ON 
-                mf."Date_played" = m."Date_played"
-            INNER JOIN 
-                core.team t
-            ON 
-                mf."Team" = t."Team_name"
-            ON CONFLICT ("Match_id", "Team_id") DO NOTHING;
-        """
+        if CUR_MODE == 'Team':
+            sql = f"""
+                INSERT INTO core.{table}_team ("Match_id", "Team_id", "Result", "Side") 
+                SELECT 
+                    m."Match_id",
+                    t."Team_id",
+                    mf."Result",
+                    mf."Side"
+                FROM 
+                    staging.match_flatten mf
+                INNER JOIN 
+                    core.match m
+                ON 
+                    mf."Date_played" = m."Date_played"
+                INNER JOIN 
+                    core.team t
+                ON 
+                    mf."Team" = t."Team_name"
+                ON CONFLICT ("Match_id", "Team_id") DO NOTHING;
+            """
+        if CUR_MODE == 'Player':
+            sql = f"""
+                INSERT INTO core.{table}_single ("Match_id", "Player_id", "Result", "Side")
+                SELECT
+                    m."Match_id",
+                    p."Player_id",
+                    mf."Result",
+                    mf."Side"
+                FROM
+                    staging.match_flatten mf
+                INNER JOIN 
+                    core.match m
+                ON
+                    m."Date_played" = mf."Date_played"
+                INNER JOIN
+                    core.player p
+                ON
+                    mf."Team" = p."Name"
+                ON CONFLICT ("Match_id", "Player_id") DO NOTHING;
+            """
     elif table.lower() == "leaderboard":
-        data['Season_id'] = CUR_SEASON
-        sql = f"""
-            INSERT INTO core.{table}_team ("Season_id", "Team_id", "Wins", "Loses", "Scores", "Lines") 
+        if CUR_MODE == 'Team':
+            sql = f"""
+                INSERT INTO core.{table}_team ("Season_id", "Team_id", "Wins", "Loses", "Scores", "Lines") 
+                SELECT
+                    {CUR_SEASON},
+                    t."Team_id",
+                    l."Wins",
+                    l."Loses",
+                    l."Scores",
+                    l."Lines"
+                FROM 
+                    core.team as t
+                INNER JOIN 
+                    staging.leaderboard as l
+                ON
+                    t."Team_name" = l."Team"
+                
+                ON CONFLICT ("Season_id", "Team_id") DO NOTHING;
+            """
+        if CUR_MODE == 'Player':
+            sql = f"""
+            INSERT INTO core.{table}_single ("Season_id", "Player_id", "Wins", "Loses", "Scores", "Lines") 
             SELECT
-                %(Season_id)s,
-                t."Team_id",
+                {CUR_SEASON},
+                p."Player_id",
                 l."Wins",
                 l."Loses",
                 l."Scores",
                 l."Lines"
-            FROM 
-                core.team as t
+            FROM
+                core.player as p
             INNER JOIN 
                 staging.leaderboard as l
-            ON
-                t."Team_name" = l."Team"
-            
-            ON CONFLICT ("Season_id", "Team_id") DO NOTHING;
-        """
+            ON 
+                p."Name" = l."Team"
+            ON CONFLICT ("Season_id", "Player_id") DO NOTHING;
+            """
     elif table.lower() == "team_member":
         sql = f"""
            INSERT INTO core.team_member  ("Season_id", "Team_id", "Player_id") 

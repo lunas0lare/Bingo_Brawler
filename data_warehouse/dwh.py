@@ -8,8 +8,6 @@ Bingo_data = dict()
 
 tables = list()
 
-Bingo_data = load_data(4)
-
 
 def staging_table():
     schema = "staging"
@@ -60,11 +58,19 @@ def core_table():
             for row in rows:
                 insert_into_core(conn, cur, row, 'match')
 
-    insert_into_core(conn, cur, row, 'leaderboard')           
-    insert_into_core(conn, cur, [], 'match_participant')
+    insert_into_core(conn, cur, None, 'leaderboard')           
+    insert_into_core(conn, cur, None, 'match_participant')
         
 
+
+# season = int(input("your season: "))
+
+Bingo_data = load_data(5)
 drop_schema('staging')
 drop_schema('core') 
+staging_table()
+core_table()
+drop_schema('staging')
+Bingo_data = load_data(4)
 staging_table()
 core_table()
