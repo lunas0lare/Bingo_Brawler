@@ -1,0 +1,677 @@
+[
+  {
+    "started": "2024-10-04T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "parkenharbor",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "GrandPooBear",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-04T21:15:00.000Z",
+    "teams": [
+      {
+        "name": "LilAggy",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "star0chris",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-05T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "bushy",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "NuclearPastaTom",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-05T19:15:00.000Z",
+    "teams": [
+      {
+        "name": "itzCBD",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Vswed",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-05T21:30:00.000Z",
+    "teams": [
+      {
+        "name": "adef",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "blanxz",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-06T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "Vswed",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "bushy",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-06T19:15:00.000Z",
+    "teams": [
+      {
+        "name": "GrandPooBear",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "itzCBD",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-06T21:30:00.000Z",
+    "teams": [
+      {
+        "name": "blanxz",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "bushy",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-11T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "parkenharbor",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "star0chris",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-11T21:15:00.000Z",
+    "teams": [
+      {
+        "name": "NuclearPastaTom",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "LilAggy",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-12T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "star0chris",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "NuclearPastaTom",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-12T19:15:00.000Z",
+    "teams": [
+      {
+        "name": "LilAggy",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "parkenharbor",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-12T21:30:00.000Z",
+    "teams": [
+      {
+        "name": "adef",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Vswed",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-13T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "LilAggy",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "blanxz",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-13T19:15:00.000Z",
+    "teams": [
+      {
+        "name": "itzCBD",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "adef",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-13T21:30:00.000Z",
+    "teams": [
+      {
+        "name": "star0chris",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "blanxz",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-18T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "adef",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "bushy",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-18T21:15:00.000Z",
+    "teams": [
+      {
+        "name": "Vswed",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "LilAggy",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-19T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "parkenharbor",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "itzCBD",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-19T19:15:00.000Z",
+    "teams": [
+      {
+        "name": "NuclearPastaTom",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "GrandPooBear",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-19T21:30:00.000Z",
+    "teams": [
+      {
+        "name": "LilAggy",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "adef",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-20T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "parkenharbor",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "NuclearPastaTom",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-20T19:15:00.000Z",
+    "teams": [
+      {
+        "name": "star0chris",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Vswed",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-20T21:30:00.000Z",
+    "teams": [
+      {
+        "name": "GrandPooBear",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "blanxz",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-25T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "itzCBD",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "bushy",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-25T21:15:00.000Z",
+    "teams": [
+      {
+        "name": "Vswed",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "GrandPooBear",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-26T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "parkenharbor",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "blanxz",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-26T19:15:00.000Z",
+    "teams": [
+      {
+        "name": "NuclearPastaTom",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "itzCBD",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-26T21:30:00.000Z",
+    "teams": [
+      {
+        "name": "adef",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "star0chris",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-27T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "LilAggy",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "bushy",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-27T19:15:00.000Z",
+    "teams": [
+      {
+        "name": "itzCBD",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "LilAggy",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-10-27T21:30:00.000Z",
+    "teams": [
+      {
+        "name": "GrandPooBear",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "adef",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-02T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "parkenharbor",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "Vswed",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-02T19:15:00.000Z",
+    "teams": [
+      {
+        "name": "NuclearPastaTom",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "blanxz",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-10T18:00:00.000Z",
+    "teams": [
+      {
+        "name": "star0chris",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "bushy",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-02T21:30:00.000Z",
+    "teams": [
+      {
+        "name": "Vswed",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "NuclearPastaTom",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-03T18:00:00.000Z",
+    "teams": [
+      {
+        "name": "blanxz",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "Vswed",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-03T20:15:00.000Z",
+    "teams": [
+      {
+        "name": "blanxz",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "itzCBD",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-03T22:30:00.000Z",
+    "teams": [
+      {
+        "name": "parkenharbor",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "adef",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-10T20:00:00.000Z",
+    "teams": [
+      {
+        "name": "bushy",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "GrandPooBear",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-08T20:00:00.000Z",
+    "teams": [
+      {
+        "name": "parkenharbor",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "bushy",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-08T22:15:00.000Z",
+    "teams": [
+      {
+        "name": "LilAggy",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "GrandPooBear",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-09T18:00:00.000Z",
+    "teams": [
+      {
+        "name": "itzCBD",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "star0chris",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-09T20:15:00.000Z",
+    "teams": [
+      {
+        "name": "NuclearPastaTom",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "adef",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2024-11-09T22:30:00.000Z",
+    "teams": [
+      {
+        "name": "star0chris",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "GrandPooBear",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  }
+]

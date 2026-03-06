@@ -1,17 +1,31 @@
 [{
     "season_id": 5,
     "name": "Season_5",
-    "base_url": "https://bingobrawlers.com"
+    "base_url": "https://bingobrawlers.com",
+    "type": "Team"
 },
 {
      "season_id": 4,
     "name": "Season_4",
-    "base_url": "https://old.bingobrawlers.com"
+    "base_url": "https://old.bingobrawlers.com",
+    "type": "Player"
 },
 {
      "season_id": 3,
     "name": "Season_3",
-    "base_url": "https://old.bingobrawlers.com/season/3"
+    "base_url": "https://old.bingobrawlers.com/season/3",
+    "type": "Player"
+},
+{
+     "season_id": 2,
+    "name": "Season_2",
+    "base_url": "https://old.bingobrawlers.com/season/2",
+    "type": "Player"
+},
+{
+     "season_id": 1,
+    "name": "Season_1",
+    "base_url": "https://old.bingobrawlers.com/season/1",
+    "type": "Player"
 }
-
 ]

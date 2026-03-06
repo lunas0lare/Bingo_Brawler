@@ -1,0 +1,78 @@
+[
+  {
+    "date_played": "2024-11-15T19:00:00.000Z",
+    "teams": [
+      {
+        "Player": "itzCBD",
+        "S": "22",
+        "L": "0",
+        "W": "0",
+        "side": "red"
+      },
+      {
+        "Player": "blanxz",
+        "S": "26",
+        "L": "0",
+        "W": "2",
+        "side": "blue"
+      }
+    ]
+  },
+  {
+    "date_played": "2024-11-16T18:00:00.000Z",
+    "teams": [
+      {
+        "Player": "star0chris",
+        "S": "26",
+        "L": "0",
+        "W": "2",
+        "side": "red"
+      },
+      {
+        "Player": "bushy",
+        "S": "16",
+        "L": "0",
+        "W": "0",
+        "side": "blue"
+      }
+    ]
+  },
+  {
+    "date_played": "2024-11-23T18:00:00.000Z",
+    "teams": [
+      {
+        "Player": "star0chris",
+        "S": "15",
+        "L": "0",
+        "W": "0",
+        "side": "red"
+      },
+      {
+        "Player": "blanxz",
+        "S": "26",
+        "L": "0",
+        "W": "2",
+        "side": "blue"
+      }
+    ]
+  },
+  {
+    "date_played": "2024-11-17T18:00:00.000Z",
+    "teams": [
+      {
+        "Player": "itzCBD",
+        "S": "25",
+        "L": "1",
+        "W": "2",
+        "side": "red"
+      },
+      {
+        "Player": "bushy",
+        "S": "16",
+        "L": "0",
+        "W": "0",
+        "side": "blue"
+      }
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "date_played": "2025-11-02T18:00:00.000Z",
+    "teams": [
+      {
+        "Team": "Monkey Business",
+        "S": "13",
+        "L": "0",
+        "W": "0",
+        "side": "red"
+      },
+      {
+        "Team": "Positive Vibes",
+        "S": "19",
+        "L": "2",
+        "W": "2",
+        "side": "blue"
+      }
+    ]
+  },
+  {
+    "date_played": "2025-11-01T17:00:00.000Z",
+    "teams": [
+      {
+        "Team": "Itzerino",
+        "S": "23",
+        "L": "0",
+        "W": "0",
+        "side": "red"
+      },
+      {
+        "Team": "FrogCarSpin",
+        "S": "26",
+        "L": "0",
+        "W": "2",
+        "side": "blue"
+      }
+    ]
+  },
+  {
+    "date_played": "2025-11-09T18:00:00.000Z",
+    "teams": [
+      {
+        "Team": "Positive Vibes",
+        "S": "11",
+        "L": "0",
+        "W": "0",
+        "side": "red"
+      },
+      {
+        "Team": "FrogCarSpin",
+        "S": "19",
+        "L": "2",
+        "W": "2",
+        "side": "blue"
+      }
+    ]
+  },
+  {
+    "date_played": "2025-11-08T18:00:00.000Z",
+    "teams": [
+      {
+        "Team": "Monkey Business",
+        "S": "36",
+        "L": "1",
+        "W": "2",
+        "side": "red"
+      },
+      {
+        "Team": "Itzerino",
+        "S": "29",
+        "L": "0",
+        "W": "1",
+        "side": "blue"
+      }
+    ]
+  }
+]

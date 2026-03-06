@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bingo Brawlers</title>
+	<link rel="canonical" href="https://bingobrawlers.com/season/2">
+	<link rel="image_src" href="https://bingobrawlers.com/assets/img/og-header.jpg">
+	<meta name="description" content='Bingo Brawlers is the heart of the bingo scene for video games as whole, putting top players in a league of their own, competing for the title "Bingo Champion".'>
+	<meta property="og:url" content="https://bingobrawlers.com/season/2">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Bingo Brawlers">
+	<meta property="og:description" content='Bingo Brawlers is the heart of the bingo scene for video games as whole, putting top players in a league of their own, competing for the title "Bingo Champion".'>
+	<meta property="og:image" content="https://bingobrawlers.com/assets/img/og-header.jpg">
+	<link rel="prefetch" href="/assets/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="/season/1/assets/style.css">
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+	<script src="/assets/edgefixes.js" defer></script>
+	<script src="/assets/script.js" defer></script>
+</head>
+<body>
+	<!-- <div class="top-background"></div> -->
+	<section class="hero">
+		<div class="container">
+			<div class="hero-img">
+				<img src="/assets/img/logo-season2.webp" alt="Bingo Brawlers - Season 2" draggable="false">
+			</div>
+			<div class="hero-img-sub">
+				<img src="/assets/img/elden-ring.webp" alt="Elden Ring" draggable="false">
+			</div>
+			<!-- <div class="hero-txt">
+				<p>
+					Welcome to Bingo Brawlers! Curious of what exactly we are all about?<br>
+					Everything will be explained down below, or check the tabs for what exactly you are looking for!
+				</p>
+				
+				<p>
+					Time left<br>
+					<time id="countdown" class="countdown" datetime="2023-09-02T19:00:00Z">0 days<br>00:00:00</time>
+				</p>
+			</div> -->
+			<!-- <div class="hero-img-promote">
+				<a href="/prediction"><img src="assets/img/prediction_update.webp" alt="Prediction Update Out Now"></a>
+			</div> -->
+		</div>
+	</section>
+	<header class="main" id="navigationheader" style="top: 0;">
+		<div class="container">
+			<div class="logo">
+				<a href="#" draggable="false">
+					<img src="/assets/img/logo-plain.webp" alt="bingo brawlers" draggable="false">
+					
+				</a>
+			</div>
+			<div class="space"></div>
+			<nav class="main">
+				<ul>
+					<li><a href="#players" draggable="false">Players</a></li>
+					<li><a href="#format" draggable="false">Format</a></li>
+					<li><a href="#matches" draggable="false">Matches</a></li>
+					<li><a href="#rules" draggable="false">Rules</a></li>
+					<li><a href="https://store.streamelements.com/captain_domo" target="_blank" draggable="false">Merch</a></li>
+					<li><a href="prediction" draggable="false">Prediction</a></li>
+					<li><a href="/season/3" draggable="false">Season&nbsp;3</a></li>
+					<li><a href="/season/1" draggable="false">Season&nbsp;1</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="players" class="people">
+		<div class="container">
+			<h1 class="organiser">Organizer / Host</h1>
+			<div class="players">
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/95dabdc9-3f87-4995-af97-1933fe92f4c2-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/captain_domo" target="_blank" draggable="false">
+							
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/95dabdc9-3f87-4995-af97-1933fe92f4c2-profile_image-150x150.png" alt="Captain_Domo" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>Captain_Domo</p>
+					</div>
+				</div>
+			</div>
+			<h1 class="main-heading">
+				Players
+				<!-- <div class="center">
+					<div class="clickme"></div>
+				</div> -->
+			</h1>
+			<div class="players runners">
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/19d33832-40f7-4d82-b79d-e3177af69c39-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/blueberrybrioche" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/19d33832-40f7-4d82-b79d-e3177af69c39-profile_image-150x150.png" alt="blueberrybrioche" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>blueberrybrioche</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/bushy" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-150x150.png" alt="bushy" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>bushy</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/catalystz" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-150x150.png" alt="catalystz" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>catalystz</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/itzcbd" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6121ec77-11bd-4391-b84a-083f99cddd07-profile_image-150x150.png" alt="itzCBD" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>itzCBD</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/lilaggy" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/058be40b-1f8f-408d-af68-d71b5a1e4bef-profile_image-150x150.png" alt="LilAggy" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>LilAggy</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur extra-saturation" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6b82bc7c-ee95-4812-933b-d2f638e06896-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/nuclearpastatom" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/6b82bc7c-ee95-4812-933b-d2f638e06896-profile_image-150x150.png" alt="NuclearPastaTom" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>NuclearPastaTom</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/puppery" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/225031cd-9fa7-42d9-bf96-8b274ddd396d-profile_image-150x150.png" alt="Puppery" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>Puppery</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/zoodle" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-150x150.png" alt="Zoodle" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>Zoodle</p>
+					</div>
+				</div>
+			</div>
+			<h2>Commentators</h2>
+			<div class="players">
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/95dabdc9-3f87-4995-af97-1933fe92f4c2-profile_image-150x150.png" alt="" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/captain_domo" target="_blank" draggable="false">
+							
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/95dabdc9-3f87-4995-af97-1933fe92f4c2-profile_image-150x150.png" alt="Captain_Domo" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>Captain_Domo</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-150x150.png" alt=" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/zoodle" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3dac06d2-6805-4989-85bd-04fb83c85903-profile_image-150x150.png" alt="Zoodle" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>Zoodle</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur extra-saturation" src="https://static-cdn.jtvnw.net/jtv_user_pictures/a4481daa-527d-4c67-9e60-28e2e8072160-profile_image-150x150.png" alt=" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/parkenharbor" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/a4481daa-527d-4c67-9e60-28e2e8072160-profile_image-150x150.png" alt="Zoodle" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>parkenharbor</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac686200-e53b-4f2d-a645-863054ac9d57-profile_image-150x150.png" alt=" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/star0chris" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac686200-e53b-4f2d-a645-863054ac9d57-profile_image-150x150.png" alt="Zoodle" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>star0chris</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="https://static-cdn.jtvnw.net/jtv_user_pictures/23f9d154-13bf-480c-b133-94d20369bef2-profile_image-150x150.png" alt=" aria-hidden="true" draggable="false" width="0" height="0">
+						<a href="https://www.twitch.tv/yojo" target="_blank" draggable="false">
+							<img class="over" src="https://static-cdn.jtvnw.net/jtv_user_pictures/23f9d154-13bf-480c-b133-94d20369bef2-profile_image-150x150.png" alt="Zoodle" draggable="false" width="100" height="100">
+						</a>
+					</div>
+					<div class="name">
+						<p>Yojo</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="format" class="format">
+		<div class="container">
+			
+			<h1>Format</h1>
+			<div class="text">
+				<p>
+					The league format will be lockout 1v1’s. The first half of the league will be a Round robin setup where each player gets to play against each other once, resulting in 7 matches for each individual. After that phase is completed the top 3 players will be moved into a Single Elimination best of 3’s tournament bracket for 1v1 lockout.
+				</p>
+				<h2>What is Lockout?</h2>
+				<p>
+					Players try to complete a single line (5 squares in a row on any row/column/diagonal) as quickly as possible. Squares are locked out by a player claiming them; if Player A claims a square, Player B can no longer claim that square.
+					<br>
+					The first player to complete a line wins. If a bingo line win condition is not possible for one player, the opponent can win by majority. A Bingo line is a priority win over majority. If at the end of 2 hours there isnt a (By bingo or majority (13 squares)), whoever has the most squares wins. A tie is only possible in the round robin matches if the timer of 2 hours runs out and both players have the same amount of squares.
+				</p>
+				<p>
+					Want to try it out yourself and with your friends? The JSON file with all the objectives is down below!
+				</p>
+				<div class="button-container">
+					<div>
+						<button id="copy-json" data-file="files/bingo-brawlers-season2.json" class="button" download draggable="false" title="Copy the objectives JSON data to the clipboard">Copy to clipboard</button>
+						<span id="copy-feedback">.</span>
+					</div>
+					<div>
+						<a href="files/bingo-brawlers-season2.json" class="button" download draggable="false" title="Download the JSON file">Download</a>
+					</div>
+				</div>
+				<h2>Bingo Board</h2>
+				<p>
+					Winning lines are horizontal, vertical and diagonal. If no winning lines are available, majority wins.
+				</p>
+				<div class="media center">
+					<video id="bingo-board-example" poster="/assets/img/example-board.webp" autoplay loop muted disablepictureinpicture>
+						<source src="/assets/img/example-board.av1.webm" type="video/webm; codecs=av01.0.05M.08">
+						<source src="/assets/img/example-board.vp9.lq.webm" type="video/webm; codecs=vp9">
+					</video>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="matches" class="matches">
+		<div class="container">
+			<h1>Matches</h1>
+
+			<div class="final-results">
+				<h2>Final results</h2>
+				<table>
+					<tr>
+						<td>1</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eff32b3-84a8-4611-8822-58b9f64d461a-profile_image-150x150.png" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>catalystz</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6b82bc7c-ee95-4812-933b-d2f638e06896-profile_image-150x150.png" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>NuclearPastaTom</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/169ac398-0aff-43bd-b387-b3a38de7ffad-profile_image-150x150.png" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>bushy</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<h2>Top 3 Lockout Bracket Playoffs</h2>
+			<div class="bracket-container">
+				<div class="bracket">
+					<div class="label label1">Semi-Finals</div>
+					<div class="label label2">Finals</div>
+					<div class="label label3">Exhibition Matches</div>
+					<div class="match semi" style="grid-area: match1 / match1 / match2 / match2">
+						<div class="header">
+							<time class="datetime" datetime="2023-10-28T19:00:00Z">28/10/2023</time>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player">
+								<div class="name">bushy</div>
+								<div class="points">1</div>
+							</div>
+							<div class="bracket-player winner">
+								<div class="name">NuclearPastaTom</div>
+								<div class="points">2</div>
+							</div>
+						</div>
+					</div>
+					<div class="match match3 current-round">
+						<div class="header">
+							<time class="datetime" datetime="2023-11-04T19:00:00Z">04/11/2023</time>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player winner">
+								<div class="name">catalystz</div>
+								<div class="points">2</div>
+							</div>
+							<div class="bracket-player">
+								<div class="name">NuclearPastaTom</div>
+								<div class="points">0</div>
+							</div>
+						</div>
+					</div>
+					<div class="match exhibition" style="grid-area: winner">
+						<div class="header">
+							<time class="datetime" datetime="2023-10-29T19:00:00Z">29/10/2023</time>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player winner">
+								<div class="name">Zoodle</div>
+								<div class="points">1</div>
+							</div>
+							<div class="bracket-player">
+								<div class="name">Captain_Domo</div>
+								<div class="points">0</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="line-semi">
+						<div class="line-box single">
+							<div class="line"></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="table">
+				<h3>Leaderboard</h3>
+				<table class="leaderboard">
+					<thead>
+						<tr>
+							<td></td>
+							<td>Name</td>
+							<td title="Wins">Wins</td>
+							
+							
+							
+							<td title="Bingo Lines completed">Lines</td>
+							<td title="Bingo Squares completed">SQs</td>
+						</tr>
+					</thead>
+					<tbody>
+						
+							<tr>
+								<td>1</td>
+								<td>catalystz</td>
+								<td>6</td>
+								
+								
+								
+								<td>3</td>
+								<td>67</td>
+							</tr>
+						
+							<tr>
+								<td>2</td>
+								<td>NuclearPastaTom</td>
+								<td>4</td>
+								
+								
+								
+								<td>1</td>
+								<td>78</td>
+							</tr>
+						
+							<tr>
+								<td>3</td>
+								<td>bushy</td>
+								<td>4</td>
+								
+								
+								
+								<td>2</td>
+								<td>71</td>
+							</tr>
+						
+							<tr>
+								<td>4</td>
+								<td>Puppery</td>
+								<td>4</td>
+								
+								
+								
+								<td>3</td>
+								<td>54</td>
+							</tr>
+						
+							<tr>
+								<td>5</td>
+								<td>LilAggy</td>
+								<td>3</td>
+								
+								
+								
+								<td>0</td>
+								<td>57</td>
+							</tr>
+						
+							<tr>
+								<td>6</td>
+								<td>Zoodle</td>
+								<td>3</td>
+								
+								
+								
+								<td>2</td>
+								<td>49</td>
+							</tr>
+						
+							<tr>
+								<td>7</td>
+								<td>blueberrybrioche</td>
+								<td>1</td>
+								
+								
+								
+								<td>1</td>
+								<td>68</td>
+							</tr>
+						
+							<tr>
+								<td>8</td>
+								<td>itzCBD</td>
+								<td>1</td>
+								
+								
+								
+								<td>0</td>
+								<td>45</td>
+							</tr>
+						
+					</tbody>
+				</table>
+			</div>
+			<h2>Round robin matches</h2>
+			<div class="text center">
+				<p id="time-zone-notice">The time and date down below is in CST/CDT.</p>
+			</div>
+			
+				
+					<div class="table ">
+						<h3>Round 1</h3>
+						
+						<table class="round commentator-0">
+							<thead>
+								<tr>
+									<td></td>
+									<td class="player1" title="Player 1">Red</td>
+									<td class="player2" title="Player 2">Blue</td>
+									<td>VOD</td>
+								</tr>
+							</thead>
+							<tbody>
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">Puppery</td>
+								<td class="player2  ">blueberrybrioche</td>
+								<td>
+									
+										<a href="https://youtu.be/CxKs4KtjClY" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">itzCBD</td>
+								<td class="player2 winner ">NuclearPastaTom</td>
+								<td>
+									
+										<a href="https://youtu.be/FWovP1cHzzg" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">LilAggy</td>
+								<td class="player2  ">bushy</td>
+								<td>
+									
+										<a href="https://youtu.be/KVR6ql3MxkE" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">catalystz</td>
+								<td class="player2  "></td>
+								<td>
+									
+										<a href="https://youtu.be/VQ8CoVW7NOY" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+							</tbody>
+						</table>
+					</div>
+				
+			
+				
+					<div class="table ">
+						<h3>Round 2</h3>
+						
+						<table class="round commentator-0">
+							<thead>
+								<tr>
+									<td></td>
+									<td class="player1" title="Player 1">Red</td>
+									<td class="player2" title="Player 2">Blue</td>
+									<td>VOD</td>
+								</tr>
+							</thead>
+							<tbody>
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">bushy</td>
+								<td class="player2 winner ">catalystz</td>
+								<td>
+									
+										<a href="https://youtu.be/job6WgY9AzM" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  "></td>
+								<td class="player2 winner ">Puppery</td>
+								<td>
+									
+										
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">NuclearPastaTom</td>
+								<td class="player2  ">LilAggy</td>
+								<td>
+									
+										<a href="https://youtu.be/t8LlHrkycYc" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">blueberrybrioche</td>
+								<td class="player2 winner ">itzCBD</td>
+								<td>
+									
+										<a href="https://youtu.be/56KOveAFOw0" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+							</tbody>
+						</table>
+					</div>
+				
+			
+				
+					<div class="table ">
+						<h3>Round 3</h3>
+						
+						<table class="round commentator-0">
+							<thead>
+								<tr>
+									<td></td>
+									<td class="player1" title="Player 1">Red</td>
+									<td class="player2" title="Player 2">Blue</td>
+									<td>VOD</td>
+								</tr>
+							</thead>
+							<tbody>
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">catalystz</td>
+								<td class="player2 winner ">NuclearPastaTom</td>
+								<td>
+									
+										<a href="https://youtu.be/QfyzASHmT3g" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">LilAggy</td>
+								<td class="player2 winner ">blueberrybrioche</td>
+								<td>
+									
+										<a href="https://youtu.be/V6a6Z3481Yo" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">Puppery</td>
+								<td class="player2  ">itzCBD</td>
+								<td>
+									
+										<a href="https://youtu.be/kGNDX2BJVTg" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">Zoodle</td>
+								<td class="player2 winner ">bushy</td>
+								<td>
+									
+										<a href="https://youtu.be/4ik7Xwyuzvs" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+							</tbody>
+						</table>
+					</div>
+				
+			
+				
+					<div class="table ">
+						<h3>Round 4</h3>
+						
+						<table class="round commentator-0">
+							<thead>
+								<tr>
+									<td></td>
+									<td class="player1" title="Player 1">Red</td>
+									<td class="player2" title="Player 2">Blue</td>
+									<td>VOD</td>
+								</tr>
+							</thead>
+							<tbody>
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">itzCBD</td>
+								<td class="player2 winner ">LilAggy</td>
+								<td>
+									
+										<a href="https://youtu.be/i_IzxyaPPqg" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">NuclearPastaTom</td>
+								<td class="player2 winner ">Zoodle</td>
+								<td>
+									
+										<a href="https://youtu.be/EqejSmq5rBE" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">blueberrybrioche</td>
+								<td class="player2 winner ">catalystz</td>
+								<td>
+									
+										<a href="https://youtu.be/taIFLUnQQGE" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">bushy</td>
+								<td class="player2  ">Puppery</td>
+								<td>
+									
+										<a href="https://youtu.be/ZSkE8HdXSlY" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+							</tbody>
+						</table>
+					</div>
+				
+			
+				
+					<div class="table ">
+						<h3>Round 5</h3>
+						
+						<table class="round commentator-0">
+							<thead>
+								<tr>
+									<td></td>
+									<td class="player1" title="Player 1">Red</td>
+									<td class="player2" title="Player 2">Blue</td>
+									<td>VOD</td>
+								</tr>
+							</thead>
+							<tbody>
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">bushy</td>
+								<td class="player2  ">NuclearPastaTom</td>
+								<td>
+									
+										<a href="https://youtu.be/E0oih3NrPkU" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">catalystz</td>
+								<td class="player2  ">itzCBD</td>
+								<td>
+									
+										<a href="https://youtu.be/ERk7d2ZNZmg" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">LilAggy</td>
+								<td class="player2 winner ">catalystz</td>
+								<td>
+									
+										<a href="https://youtu.be/O5KYO_DBvNY" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">Puppery</td>
+								<td class="player2  ">LilAggy</td>
+								<td>
+									
+										<a href="https://youtu.be/SNGiaOrAsOA" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+							</tbody>
+						</table>
+					</div>
+				
+			
+				
+					<div class="table ">
+						<h3>Round 6</h3>
+						
+						<table class="round commentator-0">
+							<thead>
+								<tr>
+									<td></td>
+									<td class="player1" title="Player 1">Red</td>
+									<td class="player2" title="Player 2">Blue</td>
+									<td>VOD</td>
+								</tr>
+							</thead>
+							<tbody>
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">NuclearPastaTom</td>
+								<td class="player2  ">Puppery</td>
+								<td>
+									
+										<a href="https://youtu.be/OXXcWa388qg" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  tie ">blueberrybrioche</td>
+								<td class="player2  tie">bushy</td>
+								<td>
+									
+										<a href="https://youtu.be/4liiVWPgna0" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">Zoodle</td>
+								<td class="player2  ">itzCBD</td>
+								<td>
+									
+										<a href="https://youtu.be/ToaZcolc2iE" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">Zoodle</td>
+								<td class="player2  ">blueberrybrioche</td>
+								<td>
+									
+										<a href="https://youtu.be/Nwq4Q-B5PJ8" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+							</tbody>
+						</table>
+					</div>
+				
+			
+				
+					<div class="table ">
+						<h3>Round 7</h3>
+						
+						<table class="round commentator-0">
+							<thead>
+								<tr>
+									<td></td>
+									<td class="player1" title="Player 1">Red</td>
+									<td class="player2" title="Player 2">Blue</td>
+									<td>VOD</td>
+								</tr>
+							</thead>
+							<tbody>
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">Zoodle</td>
+								<td class="player2 winner ">LilAggy</td>
+								<td>
+									
+										<a href="https://youtu.be/zE4RHngrVTI" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  ">Puppery</td>
+								<td class="player2 winner ">catalystz</td>
+								<td>
+									
+										<a href="https://youtu.be/GjWLytK77-M" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1 winner ">bushy</td>
+								<td class="player2  ">itzCBD</td>
+								<td>
+									
+										<a href="https://youtu.be/gNFmP33oV9o" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+			
+				
+							<tr>
+								<td></td>
+								<td class="player1  tie ">NuclearPastaTom</td>
+								<td class="player2  tie">blueberrybrioche</td>
+								<td>
+									
+										<a href="https://youtu.be/qXQzpEY26uI" target="_blank">🔗</a>
+									
+								</td>
+							</tr>
+				
+							</tbody>
+						</table>
+					</div>
+				
+			
+		</div>
+	</section>
+	<section id="rules" class="rules">
+		<div class="container">
+			<h1>Gameplay Rules</h1>
+			<div class="text">
+				<ul class="list">
+					<li>All matches will be played by the Fair play rule. Players that do not abide by that rule will be disqualified</li>
+					<li>Must play on the latest patch</li>
+					<li>No mods, excluding startup logo removal mod</li>
+					<li>
+						No exploits, skips, or glitches
+						<ul>
+							<li>Wrong warps, out of bounds, “chainsaw” glitch, and other obvious glitches are all banned</li>
+							<li>Stake skips are banned</li>
+							<li>Skipping bosses unintended to be skipped is banned (e.g. skipping Godskin Noble to get to Rykard)</li>
+							<li>Gravity kill on Radahn is banned</li>
+							<li>Gravity kills on Night’s Cavalry and other minor bosses are allowed</li>
+							<li>Quitouts are allowed</li>
+							<li>Unintended but inbounds skips to get around the map faster are allowed (e.g. jumping down the wall at the start of Leyndell)</li>
+							<li>Explosive physick somber 7 skip is not allowed</li>
+						</ul>
+					</li>
+					<li>
+						Players must mark squares as soon as reasonably possible after completing them (i.e. no “hiding” progress to surprise other players later)
+						<ul>
+							<li>For squares regarding boss kills, please wait for the “Enemy Felled” text to appear before marking</li>
+						</ul>
+					</li>
+					<li>For squares that mention “bosses”, enemies must have a red health bar at the bottom of the screen to count (e.g. Greyoll does not count towards “Defeat 3 dragon bosses”)</li>
+					<li>For squares that do not specifically mention “bosses”, non-respawnable enemies as well as bosses count (e.g. the Ulcerated Tree Spirit in Stormveil Castle counts towards “Defeat 3 Ulcerated Tree Spirits”, even though it is not a boss)</li>
+					<li>For squares that mention “Caves/Grottos”, “Catacombs”, or “Tunnels”, only dungeons that specifically contain those words in their title count (e.g. “Ruin-Strewn Precipice” does not count as a cave, but “Cave of Knowledge” does)</li>
+					<li>
+						For “Defeat X bosses in Limgrave/Liurnia/Caelid/Altus Plateau” squares:
+						<ul>
+							<li>Weeping Peninsula counts as Limgrave</li>
+							<li>Dragonbarrow counts as Caelid</li>
+							<li>Mt. Gelmir counts as Altus Plateau</li>
+							<li>Magma Wyrm Makar counts as a Liurnia boss</li>
+							<li>Grafted Scion counts towards Limgrave bosses</li>
+						</ul>
+					</li>
+					<li>
+						For the “Defeat a boss on Torrent the whole fight” square:
+						<ul>
+							<li>Gravity kills do not count</li>
+							<li>If you are knocked off Torrent, you must reset the fight</li>
+						</ul>
+					</li>
+					<li>For the “Defeat 3 Erdtree Avatars” square, Putrid Avatars also count</li>
+					<li>No quitting out on Godrick dialogue after death</li>
+					<li>Not allowed to watch another players stream for info</li>
+					<li>Talismans have to be unique (Sacrificial counts however only 1)</li>
+					<li>Incants and Sorceries have to be unique for the collection squares</li>
+					<li>For Boss's and Invaders the "Enemy felled" text has to appear on screen. For NPC kills, kill isn't confirmed until runes are acquired (No map open to block the text)</li>
+					<li>Squares with killing X Boss refers to the instance not the amount. Tree Sentinel Duo is one horse boss. Killing 3 Watchdogs, the duo in Caelid count as two since the word boss is not in the square.</li>
+					<li>No rebirthing allowed</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<section>
+				<div class="text center">
+					<p class="credit">Website created by <a href="http://noxi.cc/" target="_blank" rel="noopener noreferrer" style="color: inherit; font-size: 1em">noxifoxi</a></p>
+				</div>
+			</section>
+		</div>
+	</footer>
+	
+</body>
+</html>

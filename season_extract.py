@@ -18,23 +18,3 @@ class extract_json_data:
             data = json.load(file)
         
         return data
-
-@dataclass
-class Player:
-    name: str
-    platform: str
-    team: str
-    
-    def __init__(self):
-        self.name = ""
-        self.platform = ""
-        self.team = "solo"
-        self.role = ""
-    def __init__(self, name: str = "", platform: str = "", team: str = "solo", role: str = "player"):
-        self.name = name
-        self.platform = platform
-        self.team = team
-        self.role = role
-    def __str__(self):
-        return f"name: {self.name}, platform: {self.platform}, team: {self.team}, role: {self.role}"
-    

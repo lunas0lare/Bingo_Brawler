@@ -1,0 +1,227 @@
+[
+  {
+    "started": "2025-10-03T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "Positive Vibes",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Bushy Stache",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-03T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "Itzerino",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Blanxzonetta",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-04T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "Monkey Business",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Positive Vibes",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-04T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "Bushy Stache",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Blanxzonetta",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-05T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "Monkey Business",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "FrogCarSpin",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-05T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "Itzerino",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "FrogCarSpin",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-10T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "Itzerino",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Positive Vibes",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-10T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "Positive Vibes",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Blanxzonetta",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-11T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "Blanxzonetta",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "FrogCarSpin",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-12T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "Monkey Business",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Bushy Stache",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-12T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "FrogCarSpin",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Bushy Stache",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-24T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "Monkey Business",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Blanxzonetta",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-24T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "FrogCarSpin",
+        "side": "red",
+        "result": "winner"
+      },
+      {
+        "name": "Positive Vibes",
+        "side": "blue",
+        "result": "loser"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-25T17:00:00.000Z",
+    "teams": [
+      {
+        "name": "Bushy Stache",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "Itzerino",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  },
+  {
+    "started": "2025-10-25T19:00:00.000Z",
+    "teams": [
+      {
+        "name": "Itzerino",
+        "side": "red",
+        "result": "loser"
+      },
+      {
+        "name": "Monkey Business",
+        "side": "blue",
+        "result": "winner"
+      }
+    ]
+  }
+]

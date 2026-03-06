@@ -42,9 +42,8 @@ def save_to_json(file_name, extracted_data: list):
 
     extracted_data: a list of objects
     """
-   
-
-    with open(file_name, 'w', encoding='utf-8') as f:
+    file_path = file_name + '.json'
+    with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(extracted_data, f, indent = 2, ensure_ascii= False)
 
 def html_parser(link) -> str:

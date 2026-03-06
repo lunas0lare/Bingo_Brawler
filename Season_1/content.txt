@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bingo Brawlers</title>
+	<link rel="canonical" href="https://bingobrawlers.com/season/1/">
+	<link rel="image_src" href="https://bingobrawlers.com/assets/img/og-header.jpg">
+	<meta name="description" content='Bingo Brawlers is the heart of the bingo scene for video games as whole, putting top players in a league of their own, competing for the title "Bingo Champion".'>
+	<meta property="og:url" content="https://bingobrawlers.com/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Bingo Brawlers">
+	<meta property="og:description" content='Bingo Brawlers is the heart of the bingo scene for video games as whole, putting top players in a league of their own, competing for the title "Bingo Champion".'>
+	<meta property="og:image" content="https://bingobrawlers.com/assets/img/og-header.jpg">
+	<link rel="prefetch" href="/assets/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="stylesheet" href="/season/1/assets/style.css">
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+	<script src="/assets/script.js" defer></script>
+</head>
+<body>
+	<header class="main" id="navigationheader">
+		<div class="container">
+			<div class="logo">
+				<a href="/" draggable="false"><img src="/season/1/assets/img/logo-full.webp" alt="bingo brawlers" draggable="false"></a>
+			</div>
+			<div class="space"></div>
+			<nav class="main">
+				<ul>
+					<li><a href="#players" draggable="false">Players</a></li>
+					<li><a href="#format" draggable="false">Format</a></li>
+					<li><a href="#matches" draggable="false">Matches</a></li>
+					<li><a href="#rules" draggable="false">Rules</a></li>
+					<li><a href="/season/3">Season&nbsp;3</a></li>
+					<li><a href="/season/2">Season&nbsp;2</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="hero">
+		<div class="container">
+			<div class="hero-img">
+				<img class="blur" src="/season/1/assets/img/full-logo.webp" alt="Bingo Brawlers" aria-hidden="true" draggable="false">
+				<img src="/season/1/assets/img/full-logo.webp" alt="Bingo Brawlers" draggable="false">
+			</div>
+			<div class="hero-img-sub">
+				<img src="/season/1/assets/img/elden-ring.webp" alt="Elden Ring" draggable="false">
+			</div>
+			<div class="hero-txt">
+				<p>
+					Welcome to Bingo Brawlers! Curious of what exactly we are all about?<br>
+					Everything will be explained down below, or check the tabs for what exactly you are looking for!
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="players" class="people">
+		<div class="container">
+			<h1 class="organiser">Organizer / Host</h1>
+			<div class="players">
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/captain_domo.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/captain_domo" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/captain_domo.webp" alt="Captain_Domo" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>Captain_Domo</p>
+					</div>
+				</div>
+			</div>
+			<h1 class="main-heading">
+				Players
+				<!-- <div class="center">
+					<div class="clickme"></div>
+				</div> -->
+			</h1>
+			<div class="players runners">
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/ainrun.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/ainrun" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/ainrun.webp" alt="Ainrun" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>Ainrun</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/dinossindgeil.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/dinossindgeil" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/dinossindgeil.webp" alt="dinossindgeil" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>dinossindgeil</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/ginomachino.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/ginomachino" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/ginomachino.webp" alt="GinoMachino" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>GinoMachino</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/lilaggy.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/lilaggy" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/lilaggy.webp" alt="LilAggy" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>LilAggy</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/mitchriz.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/mitchriz" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/mitchriz.webp" alt="Mitchriz" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>Mitchriz</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/parkenharbor.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/parkenharbor" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/parkenharbor.webp" alt="parkenharbor" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>parkenharbor</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/star0chris.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/star0chris" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/star0chris.webp" alt="star0chris" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>star0chris</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/yojo.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/yojo" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/yojo.webp" alt="Yojo" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>Yojo</p>
+					</div>
+				</div>
+			</div>
+			<h2>Commentators</h2>
+			<div class="players">
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/captain_domo.webp" alt="" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/captain_domo" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/captain_domo.webp" alt="Captain_Domo" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>Captain_Domo</p>
+					</div>
+				</div>
+				<div class="player">
+					<div class="img-container">
+						<img class="blur" src="/season/1/assets/img/avatars/kazoodle.webp" alt=" aria-hidden="true" draggable="false">
+						<a href="https://www.twitch.tv/zoodle" target="_blank" draggable="false"><img class="over" src="/season/1/assets/img/avatars/kazoodle.webp" alt="Zoodle" draggable="false"></a>
+					</div>
+					<div class="name">
+						<p>Zoodle</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="format" class="format">
+		<div class="container">
+			<h1>Format</h1>
+			<div class="text">
+				<p>
+					The league format will be lockout 1v1’s. The first half of the league will be a Round robin setup where each player gets to play against each other once, resulting in 7 matches for each individual. After that phase is completed the top 4 players will be moved into a Single Elimination best of 3’s tournament bracket for 1v1 lockout.
+				</p>
+				<h2>What is Lockout?</h2>
+				<p>
+					Players try to complete a single line (5 squares in a row on any row/column/diagonal) as quickly as possible. Squares are locked out by a player claiming them; if Player A claims a square, Player B can no longer claim that square.
+					<br>
+					The first player to complete a line wins. If a bingo line win condition is not possible for one player, the opponent can win by majority. A Bingo line is a priority win over majority. If at the end of 2 hours there isnt a winner (By bingo or majority (13 squares)), whoever has the most squares wins. A tie is only possible in the round robin matches if the timer of 2 hours runs out and both players have the same amount of squares.
+				</p>
+				<p>
+					Want to try it out yourself and with your friends? The JSON file with all the objectives is down below!
+				</p>
+				<div class="button-container">
+					<div>
+						<button id="copy-json" data-file="files/bingo-brawlers.json" class="button" download draggable="false" title="Copy the objectives JSON data to the clipboard">Copy to clipboard</button>
+						<span id="copy-feedback">.</span>
+					</div>
+					<div>
+						<a href="files/bingo-brawlers.json" class="button" download draggable="false" title="Download the JSON file">Download</a>
+					</div>
+				</div>
+				<p class="right">
+					<small>The league uses bingosync.com to produce the boards.</small>
+				</p>
+				<h2>Bingo Board</h2>
+				<p>
+					Winning lines are horizontal, vertical and diagonal. If no winning lines are available, majority wins.
+				</p>
+				<div class="media center">
+					<video id="bingo-board-example" poster="/assets/img/example-board.webp" autoplay loop muted disablepictureinpicture>
+						<source src="/assets/img/example-board.av1.webm" type="video/webm; codecs=av01.0.05M.08">
+						<source src="/assets/img/example-board.vp9.lq.webm" type="video/webm; codecs=vp9">
+					</video>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="matches" class="matches">
+		<div class="container">
+			<h1>Matches</h1>
+			<div class="text center">
+				<p id="time-zone-notice">The time and date down below is in CST/CDT.</p>
+			</div>
+			<div class="final-results">
+				<h2>Final results</h2>
+				<table>
+					<tr>
+						<td>1</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="/season/1/assets/img/avatars/ginomachino.webp" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>GinoMachino</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="/season/1/assets/img/avatars/star0chris.webp" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>star0chris</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="/season/1/assets/img/avatars/lilaggy.webp" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>LilAggy</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>
+							<div class="wrapper">
+								<div class="img">
+									<img src="/season/1/assets/img/avatars/ainrun.webp" alt="" draggable="false" height="32" width="32">
+								</div>
+								<div>Ainrun</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<h2>Top 4 Lockout Bracket Playoffs</h2>
+			<div class="bracket-container">
+				<div class="bracket">
+					<div class="label label1">Semi-Finals</div>
+					<div class="label label2">Finals</div>
+					<div class="label label3">Bingo Champion</div>
+					<div class="label label4">Third Place</div>
+					<div class="match match1">
+						<div class="header">
+							<!-- <time class="date" datetime="2023-04-29T18:00:00Z">29/04/2023</time> - <time class="time" datetime="2023-04-29T18:00:00Z">29/04/2023</time> -->
+							VODs:
+							<a href="https://www.youtube.com/watch?v=eV09iHbepmQ&list=PLCOw7CSUa4Vy5k4IXM-i4dApz4it-HTjr" title="Match 1" target="_blank">🔗</a>
+							<a href="https://www.youtube.com/watch?v=bdaGE4d5Yo0&list=PLCOw7CSUa4Vy5k4IXM-i4dApz4it-HTjr" title="Match 2" target="_blank">🔗</a>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player winner">
+								<div class="name">GinoMachino</div>
+								<div class="points">2</div>
+							</div>
+							<div class="bracket-player">
+								<div class="name">Ainrun</div>
+								<div class="points">0</div>
+							</div>
+						</div>
+					</div>
+					<div class="match match2">
+						<div class="header">
+							<!-- <time class="date" datetime="2023-04-22T18:00:00Z">22/04/2023</time> - <time class="time" datetime="2023-04-22T18:00:00Z">22/04/2023</time> -->
+							VODs:
+							<a href="https://www.youtube.com/watch?v=toqb6TCWZEk&list=PLCOw7CSUa4VzKxUXd0UDvVu0mNNPwJTZL" title="Match 1" target="_blank">🔗</a>
+							<a href="https://www.youtube.com/watch?v=HCRmArrry8c&list=PLCOw7CSUa4VzKxUXd0UDvVu0mNNPwJTZL" title="Match 2" target="_blank">🔗</a>
+							<a href="https://www.youtube.com/watch?v=6kKOSBDHp4Y&list=PLCOw7CSUa4VzKxUXd0UDvVu0mNNPwJTZL" title="Match 3" target="_blank">🔗</a>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player">
+								<div class="name">LilAggy</div>
+								<div class="points">1</div>
+							</div>
+							<div class="bracket-player winner">
+								<div class="name">star0chris</div>
+								<div class="points">2</div>
+							</div>
+						</div>
+					</div>
+					<div class="match match3">
+						<div class="header">
+							<!-- <time class="date" datetime="2023-05-06T18:00:00Z">06/05/2023</time> - <time class="time" datetime="2023-05-06T18:00:00Z">06/05/2023</time> -->
+							VODs:
+							<a href="https://www.youtube.com/watch?v=B7fOme3U-HI&list=PLCOw7CSUa4VwkJugMIv9nEpWsssVJ0MUh" title="Match 1" target="_blank">🔗</a>
+							<a href="https://www.youtube.com/watch?v=8dtCb03ubxU&list=PLCOw7CSUa4VwkJugMIv9nEpWsssVJ0MUh" title="Match 2" target="_blank">🔗</a>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player winner">
+								<div class="name">GinoMachino</div>
+								<div class="points">2</div>
+							</div>
+							<div class="bracket-player">
+								<div class="name">star0chris</div>
+								<div class="points">0</div>
+							</div>
+						</div>
+					</div>
+					<div class="match thirdplace">
+						<div class="header">
+							<!-- <time class="date" datetime="2023-04-30T18:00:00Z">30/04/2023</time> - <time class="time" datetime="2023-04-30T18:00:00Z">30/04/2023</time> -->
+							VODs:
+							<a href="https://www.youtube.com/watch?v=n_quzIQBYPo&list=PLCOw7CSUa4Vwp8QWTt_O8SzocQ5VqzTAb" title="Match 1" target="_blank">🔗</a>
+							<a href="https://www.youtube.com/watch?v=idCBm6HN128&list=PLCOw7CSUa4Vwp8QWTt_O8SzocQ5VqzTAb" title="Match 2" target="_blank">🔗</a>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player">
+								<div class="name">Ainrun</div>
+								<div class="points">0</div>
+							</div>
+							<div class="bracket-player winner">
+								<div class="name">LilAggy</div>
+								<div class="points">2</div>
+							</div>
+						</div>
+					</div>
+					<div class="winner match bingo-champion">
+						<div class="header">
+							<time class="date" datetime="2023-05-07T18:00:00Z">07/05/2023</time> - <time class="time" datetime="2023-05-07T18:00:00Z">07/05/2023</time>
+						</div>
+						<div class="bracket-players">
+							<div class="bracket-player">
+								<div class="name" title="Endboss">Captain_Domo</div>
+								<div class="points">0</div>
+							</div>
+							<div class="bracket-player winner">
+								<div class="name">GinoMachino</div>
+								<div class="points">1</div>
+							</div>
+						</div>
+					</div>
+					<div class="connector">
+						<div class="merger"></div>
+						<div class="line-box">
+							<div class="line"></div>
+						</div>
+					</div>
+					<div class="line">
+						<div class="line-box single">
+							<div class="line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text center">
+				<h2>Leaderboard</h2>
+				<!-- <p>
+					During the round robin phase, players are ranked according to their overall performance.<br>
+					If there are joint wins afterwards, "head-to-head" will be used as a tie breaker.
+				</p> -->
+			</div>
+			<div class="table">
+				<h3>Leaderboard</h3>
+				<table class="leaderboard">
+					<thead>
+						<tr>
+							<td></td>
+							<td>Name</td>
+							<td>Wins</td>
+							<td>Lines</td>
+							<td title="Squares">SQs</td>
+							<td>Games</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>GinoMachino</td>
+							<td>6½</td>
+							<td>3</td>
+							<td>76</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>LilAggy</td>
+							<td>6</td>
+							<td>4</td>
+							<td>65</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>star0chris</td>
+							<td>4</td>
+							<td>2</td>
+							<td>64</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Ainrun</td>
+							<td>3½</td>
+							<td>3</td>
+							<td>67</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>Yojo</td>
+							<td>3</td>
+							<td>1</td>
+							<td>62</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>Mitchriz</td>
+							<td>2</td>
+							<td>0</td>
+							<td>46</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>dinossindgeil</td>
+							<td>1½</td>
+							<td>1</td>
+							<td>34</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>parkenharbor</td>
+							<td>1½</td>
+							<td>1</td>
+							<td>33</td>
+							<td>7</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2>Round robin matches</h2>
+			<div class="table">
+				<h3>Round 1</h3>
+				<table class="round">
+					<thead>
+						<tr>
+							<td>Date</td>
+							<td class="player1">Player 1</td>
+							<td class="player2">Player 2</td>
+							<td>VOD</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-03-04T19:00:00Z">04/03/2023</time></td>
+							<td class="player1 winner">Ainrun</td>
+							<td class="player2">Mitchriz</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=MIxT4JcGxIk" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-04T19:00:00Z" title="CST">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1 winner">GinoMachino</td>
+							<td class="player2">Yojo</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=PkiG9ogobkI" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-04T21:00:00Z" title="CST">3:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td><time class="date" datetime="2023-03-25T16:00:00Z">25/03/2023</time></td>
+							<td class="player1 tie">dinossindgeil</td>
+							<td class="player2 tie">parkenharbor</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=8TDu2PW4nOQ" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-05T19:00:00Z" title="CST">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td><time class="date" datetime="2023-03-05T19:00:00Z">05/03/2023</time></td>
+							<td class="player1 winner">LilAggy</td>
+							<td class="player2">star0chris</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=3nWHEg1eI44" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-05T21:00:00Z" title="CST">3:00 PM</time> -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table">
+				<h3>Round 2</h3>
+				<table class="round">
+					<thead>
+						<tr>
+							<td>Date</td>
+							<td class="player1">Player 1</td>
+							<td class="player2">Player 2</td>
+							<td>VOD</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-03-11T19:00:00Z">11/03/2023</time></td>
+							<td class="player1 winner">Ainrun</td>
+							<td class="player2">Yojo</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=sxyz8mHSjGs" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-11T19:00:00Z" title="CST">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1">Mitchriz</td>
+							<td class="player2 winner">star0chris</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=xzzNBtDG4yc" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-11T21:00:00Z" title="CST">3:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-03-12T18:00:00Z">12/03/2023</time></td>
+							<td class="player1 winner">LilAggy</td>
+							<td class="player2">dinossindgeil</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=anvF3DQIAj4" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-12T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1 winner">GinoMachino</td>
+							<td class="player2">parkenharbor</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=4gTqicQzpRc" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-12T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table">
+				<h3>Round 3</h3>
+				<table class="round">
+					<thead>
+						<tr>
+							<td>Date</td>
+							<td class="player1">Player 1</td>
+							<td class="player2">Player 2</td>
+							<td>VOD</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-03-18T18:00:00Z">18/03/2023</time></td>
+							<td class="player1">Ainrun</td>
+							<td class="player2 winner">star0chris</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=pZ1ZjEiehZs" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-18T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1 winner">Yojo</td>
+							<td class="player2">parkenharbor</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=gTedDj2NaFg" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-18T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-03-19T18:00:00Z">19/03/2023</time></td>
+							<td class="player1 winner">Mitchriz</td>
+							<td class="player2">dinossindgeil</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=etEeFEko65g" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-19T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1 winner">GinoMachino</td>
+							<td class="player2">LilAggy</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=qqs2KqU5Sfo" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-19T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table rematch past">
+				<h3>Round 1 - Rematch</h3>
+				<table class="round">
+					<thead>
+						<tr>
+							<td>Date</td>
+							<td class="player1">Player 1</td>
+							<td class="player2">Player 2</td>
+							<td>VOD</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td ><time class="date" datetime="2023-03-25T16:00:00Z">25/03/2023</time></td>
+							<td class="player1 tie">dinossindgeil</td>
+							<td class="player2 tie">parkenharbor</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=8TDu2PW4nOQ" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-25T16:00:00Z" title="CDT">11:00 AM</time> -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table">
+				<h3>Round 4</h3>
+				<table class="round">
+					<thead>
+						<tr>
+							<td>Date</td>
+							<td class="player1">Player 1</td>
+							<td class="player2">Player 2</td>
+							<td>VOD</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-03-25T18:00:00Z">25/03/2023</time></td>
+							<td class="player1 winner">star0chris</td>
+							<td class="player2">dinossindgeil</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=-M8HOOu2bzg" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-25T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1">Ainrun</td>
+							<td class="player2 winner">parkenharbor</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=NAe-UgLelh4" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-25T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-03-26T18:00:00Z">26/03/2023</time></td>
+							<td class="player1">Yojo</td>
+							<td class="player2 winner">LilAggy</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=eieQ243tzHs" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-26T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1">Mitchriz</td>
+							<td class="player2 winner">GinoMachino</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=0Foskg0hIb8" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-03-26T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table">
+				<h3>Round 5</h3>
+				<table class="round">
+					<thead>
+						<tr>
+							<td>Date</td>
+							<td class="player1">Player 1</td>
+							<td class="player2">Player 2</td>
+							<td>VOD</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-04-01T18:00:00Z">01/04/2023</time></td>
+							<td class="player1 winner">Ainrun</td>
+							<td class="player2">dinossindgeil</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=Spp0uZMjr2g" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-01T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1">parkenharbor</td>
+							<td class="player2 winner">LilAggy</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=idNtroWrq2c" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-01T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-04-02T18:00:00Z">02/04/2023</time></td>
+							<td class="player1">star0chris</td>
+							<td class="player2 winner">GinoMachino</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=MH0xf_bPJaA" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-02T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1 winner">Yojo</td>
+							<td class="player2">Mitchriz</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=IeS_85bwcEk" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-01T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table">
+				<h3>Round 6</h3>
+				<table class="round">
+					<thead>
+						<tr>
+							<td>Date</td>
+							<td class="player1">Player 1</td>
+							<td class="player2">Player 2</td>
+							<td>VOD</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-04-08T18:00:00Z">08/04/2023</time></td>
+							<td class="player1">Ainrun</td>
+							<td class="player2 winner">LilAggy</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=owocWo1ibPw" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-08T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1">star0chris</td>
+							<td class="player2 winner">Yojo</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=3fu7vm3544s" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-08T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-04-09T18:00:00Z">09/04/2023</time></td>
+							<td class="player1">dinossindgeil</td>
+							<td class="player2 winner">GinoMachino</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=6ORu7PRjwxM" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-09T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1">parkenharbor</td>
+							<td class="player2 winner">Mitchriz</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=hueZGZsLJck" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-09T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table">
+				<h3>Round 7</h3>
+				<table class="round">
+					<thead>
+						<tr>
+							<td>Date</td>
+							<td class="player1">Player 1</td>
+							<td class="player2">Player 2</td>
+							<td>VOD</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-04-15T18:00:00Z">15/04/2023</time></td>
+							<td class="player1 winner">LilAggy</td>
+							<td class="player2">Mitchriz</td>
+							<td>
+								<!-- <a href="" target="_blank">🔗</a> -->
+								<!-- <time class="time" datetime="2023-04-15T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1 tie">Ainrun</td>
+							<td class="player2 tie">GinoMachino</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=PzDYVJPjdGI" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-15T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><time class="date" datetime="2023-04-16T18:00:00Z">16/04/2023</time></td>
+							<td class="player1 winner">dinossindgeil</td>
+							<td class="player2">Yojo</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=GS0zjP847b4" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-16T18:00:00Z" title="CDT">1:00 PM</time> -->
+							</td>
+						</tr>
+						<tr>
+							<td class="player1">parkenharbor</td>
+							<td class="player2 winner">star0chris</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=hvsa3gjWSZQ" target="_blank">🔗</a>
+								<!-- <time class="time" datetime="2023-04-16T20:00:00Z" title="CDT">3:00 PM</time> -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+	<section id="rules" class="rules">
+		<div class="container">
+			<h1>Gameplay Rules</h1>
+			<div class="text">
+				<ul class="list">
+					<li>Must play on the latest patch</li>
+					<li>No mods, including startup logo removal mods</li>
+					<li>
+						No exploits, skips, or glitches
+						<ul>
+							<li>Wrong warps, out of bounds, “chainsaw” glitch, and other obvious glitches are all banned</li>
+							<li>Stake skips are banned</li>
+							<li>Skipping bosses unintended to be skipped is banned (e.g. skipping Godskin Noble to get to Rykard)</li>
+							<li>Gravity kill on Radahn is banned</li>
+							<li>Gravity kills on Night’s Cavalry and other minor bosses are allowed</li>
+							<li>Quitouts are allowed</li>
+							<li>Unintended but inbounds skips to get around the map faster are allowed (e.g. jumping down the wall at the start of Leyndell)</li>
+							<li>Explosive physick somber 7 skip is not allowed</li>
+						</ul>
+					</li>
+					<li>
+						Players must mark squares as soon as reasonably possible after completing them (i.e. no “hiding” progress to surprise other players later)
+						<ul>
+							<li>For squares regarding boss kills, please wait for the “Enemy Felled” text to appear before marking</li>
+						</ul>
+					</li>
+					<li>For squares that mention “bosses”, enemies must have a red health bar at the bottom of the screen to count (e.g. Greyoll does not count towards “Defeat 3 dragon bosses”)</li>
+					<li>For squares that do not specifically mention “bosses”, non-respawnable enemies as well as bosses count (e.g. the Ulcerated Tree Spirit in Stormveil Castle counts towards “Defeat 3 Ulcerated Tree Spirits”, even though it is not a boss)</li>
+					<li>For squares that mention “Caves/Grottos”, “Catacombs”, or “Tunnels”, only dungeons that specifically contain those words in their title count (e.g. “Ruin-Strewn Precipice” does not count as a cave, but “Cave of Knowledge” does)</li>
+					<li>
+						For “Defeat X bosses in Limgrave/Liurnia/Caelid/Altus Plateau” squares:
+						<ul>
+							<li>Weeping Peninsula counts as Limgrave</li>
+							<li>Dragonbarrow counts as Caelid</li>
+							<li>Mt. Gelmir counts as Altus Plateau</li>
+							<li>Magma Wyrm Makar counts as a Liurnia boss</li>
+							<li>Grafted Scion counts towards Limgrave bosses</li>
+						</ul>
+					</li>
+					<li>
+						For the “Defeat a boss on Torrent the whole fight” square:
+						<ul>
+							<li>Gravity kills do not count</li>
+							<li>If you are knocked off Torrent, you must reset the fight</li>
+						</ul>
+					</li>
+					<li>For the “Defeat 3 Erdtree Avatars” square, Putrid Avatars also count</li>
+					<li>No quitting out on Godrick dialogue after death</li>
+					<li>Not allowed to watch another players stream for info</li>
+					<li>Any usage of Jellyfish Shield is banned.</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<section>
+				<div class="text center">
+					<p class="credit">Website created by <a href="http://noxi.cc/" target="_blank" rel="noopener noreferrer" style="color: inherit; font-size: 1em">noxifoxi</a></p>
+				</div>
+			</section>
+		</div>
+	</footer>
+</body>
+</html>

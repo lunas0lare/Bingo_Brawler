@@ -36,15 +36,19 @@ if __name__ == "__main__":
 
             print("crawling player data...")
             save_to_json(f"Season_{season}/player", extract_players(soup))
-
+            print("successfully crawled player data!\n")
+            
             print("crawling match data...")
             save_to_json(f"Season_{season}/match", extract_match(soup))
+            print("successfully crawled player data!\n")
 
             print("crawling leaderboard data...")
             save_to_json(f"Season_{season}/leaderboard", extract_leaderboard(soup))
+            print("successfully crawled player data!\n")
 
             print("crawling playoff data...")
             save_to_json(f"Season_{season}/playoff", extract_playoff(soup))
+            print("successfully crawled player data!\n")
 
         except FileNotFoundError as e:      
             print(f"file not found: {e}")
